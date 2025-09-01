@@ -41,7 +41,11 @@ sections:
         description: >-
           - TODO
         rating: '5'
-      - name: Задание 3.1.
+      - name: Задание 3.1. Генератор судоку
+        description: >-
+          - TODO
+        rating: '5'
+      - name: Задание 3.2. Солвер для судоку
         description: >-
           - TODO
         rating: '5'
