@@ -25,6 +25,16 @@ sections:
     name: Main part
     description: ""
     questions:
+      - name: Задание 0.1. Создание виртуального окружения
+        description: >-
+          - Приложен скриншот с активированным окружением
+          - Окружение называется "project1"
+        rating: '5'
+      - name: Задание 0.2. Установка библиотек
+        description: >-
+          - Создан файл `requirements.txt`
+          - Установлены библиотеки `numpy` и `jupyterlab` c указанием версий
+        rating: '5'
       - name: Задание 1.1. Подготовка текстовых данных
         description: >-
           - TODO
