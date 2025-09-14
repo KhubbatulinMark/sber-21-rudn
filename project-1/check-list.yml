@@ -19,7 +19,7 @@ quick_actions:
   - CHEAT
 language: ru
 comment: ""
-name: DS. Project 01
+name: Проект 01 – Python
 sections:
   - kind: "1"
     name: Main part
