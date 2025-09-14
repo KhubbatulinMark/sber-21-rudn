@@ -53,8 +53,7 @@ sections:
           - Верхняя граница выбросов - 3750
           - Размерность `responses` - (18696, 395)
         rating: '5'
-      - name: Задание 2.1. Запрос по API
+      - name: Задание 1.5. Не популярный гендер
         description: >-
-          - Функция `get_sudoku` возвращает 2 np.array - головоломку и решение
-          - Функция `get_sudoku` позволяет выбрать сложность головоломки
+          - Топ-6 самых популярных вариантов ответа: ['male', 'female', 'prefer not to say', 'prefer to self-describe', 'attack helicopter', 'non-binary']
         rating: '5'
