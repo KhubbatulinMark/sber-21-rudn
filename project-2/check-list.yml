@@ -19,33 +19,41 @@ quick_actions:
   - CHEAT
 language: ru
 comment: ""
-name: DS. Project 02
+name: Проект 02 – Разведочный анализ
 sections:
   - kind: "1"
     name: Main part
     description: ""
     questions:
-      - name: Task 1.
+      - name: Задание 0.1. Настройка виртуального окружения
         description: >-
-          - Cамый часто встречаемый возраст среди респондентов - 18-21
+          - Приложен скриншот с активированным окружением
+          - Окружение называется "project2"
+          - Установлены библиотеки `pandas`, `jupyterlab`
+      - name: Задание 1.1. Загрузка данных
+        description: >-
+          - Размер таблицы freeFormResponses: (23860, 35)
+          - Размер таблицы multipleChoiceResponses: (23860, 395)
+          - Датасеты **не загружены** на git
         rating: '5'
-      - name: Task 2.
+      - name: Задание 1.2. Совмещение таблиц
         description: >-
-          - Доля женщин среди русских участников опроса, которые уже не студенты - 0.24
+          - Количество общих колонок между таблицами - 35
+          - Количество уникальных значений в колонке `Q1_OTHER_TEXT` для таблицы `multiple` - 68
+          - Количество уникальных значений в колонке `Q1_OTHER_TEXT` для таблицы `responses` - 133
         rating: '5'
-      - name: Task 3.
+      - name: Задание 1.3. Словарь вопросов
         description: >-
-          - Cреднее время заполнения опроса в минутах - 168.17
+          - Код `type(name2question1)` выводит `dict`
+          - Размерность `responses` - (23859, 395)
         rating: '5'
-      - name: Task 4.
+      - name: Задание 1.4. Очистка респондентов
         description: >-
-          - Топ-3 образовательных курса, которые указали респонденты: Coursera, University Courses, Kaggle Learn Courses
+          - Значение IQR - 1272
+          - Верхняя граница выбросов - 3750
+          - Размерность `responses` - (18696, 395)
         rating: '5'
-      - name: Task 5.
+      - name: Задание 1.5. Не популярный гендер
         description: >-
-          - Топ-5 языков программирования, которые регулярно используют Data Scientists в своей работе: Python, SQL, R, Bash, Javascript
-        rating: '5'
-      - name: Task 6.
-        description: >-
-          - Средний доход Data Scientist: 70337, Machine Learning/ MLops Engineer: 67438
+          - Топ-6 самых популярных вариантов ответа: ['male', 'female', 'prefer not to say', 'prefer to self-describe', 'attack helicopter', 'non-binary']
         rating: '5'
