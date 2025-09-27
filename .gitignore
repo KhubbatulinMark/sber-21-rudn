@@ -208,3 +208,4 @@ __marimo__/
 
 # IDE
 .idea
+.DS_Store
