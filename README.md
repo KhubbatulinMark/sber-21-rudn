@@ -6,7 +6,7 @@ Legend: ![](icons/pptx.png) — lection, ![](icons/jupyter.png) — solution,  !
 | Проект | Тема                            | Repo                                                                               |                                         
 |--------|---------------------------------|------------------------------------------------------------------------------------|
 | 1      | Проект 01 – Python              | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_1.ID_1577557.git) |
-| 2      | Проект 02 – Numpy               | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_2.ID_1577558.git) |
+| 2      | Проект 02 – Numpy               | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_2.ID_1577600.git) |
 | 3      | Проект 03 – Разведочный анализ  | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 | 3      | Проект 04 – Визуализация данных | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 
