@@ -10,9 +10,6 @@ Legend: ![](icons/pptx.png) — lection, ![](icons/jupyter.png) — solution,  !
 | 3      | Проект 03 – Разведочный анализ  | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 | 3      | Проект 04 – Визуализация данных | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 
-# TODO 
-- [x] Синхронизироваться Проект 1 с Продуктивом
-- [x] Синхронизироваться Проект 2 с Продуктивом
+# TODO
 - [x] Синхронизироваться Проект 3 с Продуктивом
 - [ ] Синхронизироваться Проект 4 с Продуктивом
-- [ ] Поправить размеры изображений 2ой проект
