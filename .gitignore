@@ -208,7 +208,9 @@ __marimo__/
 
 # IDE
 .idea
+.cursor
+.DS_Store
+
+requirements.txt
 
 /lections
-
-.DS_Store
