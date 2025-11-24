@@ -1,1582 +1,1578 @@
 {
-    "Q16_Part_8": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - C/C++",
-        "source": "multiple"
-    },
-    "Q36_Part_3": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - edX",
-        "source": "multiple"
-    },
-    "Q31_Part_8": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Tabular Data",
-        "source": "multiple"
-    },
-    "Q27_Part_7": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Cloud Functions",
-        "source": "multiple"
-    },
-    "Q28_Part_2": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Speech-to-text API",
-        "source": "multiple"
-    },
-    "Q29_Part_5": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS DynamoDB",
-        "source": "multiple"
-    },
-    "Q29_Part_11": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - PostgresSQL",
-        "source": "multiple"
-    },
-    "Q30_Part_6": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Kinesis",
-        "source": "multiple"
-    },
-    "Q47_Part_4": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Plot decision boundaries",
-        "source": "multiple"
-    },
-    "Q38_Part_19": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Towards Data Science Blog",
-        "source": "multiple"
-    },
-    "Q29_Part_26": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Db2",
-        "source": "multiple"
-    },
-    "Q30_Part_9": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Redshift",
-        "source": "multiple"
-    },
-    "Q34_Part_1": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Gathering data",
-        "source": "multiple"
-    },
-    "Q27_Part_2": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Compute Engine",
-        "source": "multiple"
-    },
-    "Q42_Part_5": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q16_Part_10": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Scala",
-        "source": "multiple"
-    },
-    "Q16_Part_17": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q36_Part_6": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Kaggle Learn",
-        "source": "multiple"
-    },
-    "Q11_Part_3": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data",
-        "source": "multiple"
-    },
-    "Q49_Part_10": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Include a text file describing all dependencies",
-        "source": "multiple"
-    },
-    "Q36_OTHER_TEXT": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q12_MULTIPLE_CHOICE": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Selected Choice",
-        "source": "multiple"
-    },
-    "Q30_Part_12": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Analysis Services",
-        "source": "multiple"
-    },
-    "Q31_Part_1": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Audio Data",
-        "source": "multiple"
-    },
-    "Q46": {
-        "question": "Approximately what percent of your data projects involve exploring model insights?",
-        "source": "multiple"
-    },
-    "Q49_Part_6": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Make sure the code is well documented",
-        "source": "multiple"
-    },
-    "Q21_Part_9": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Geoplotlib",
-        "source": "multiple"
-    },
-    "Q29_Part_14": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Ingres",
-        "source": "multiple"
-    },
-    "Q16_Part_14": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - PHP",
-        "source": "multiple"
-    },
-    "Q21_Part_10": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Leaflet",
-        "source": "multiple"
-    },
-    "Q27_Part_5": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Kubernetes Engine",
-        "source": "multiple"
-    },
-    "Q33_Part_6": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Publicly released data from private companies",
-        "source": "multiple"
-    },
-    "Q15_Part_3": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Azure",
-        "source": "multiple"
-    },
-    "Q28_Part_15": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Machine Learning Engine",
-        "source": "multiple"
-    },
-    "Q16_Part_6": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Javascript/Typescript",
-        "source": "multiple"
-    },
-    "Q27_Part_9": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Virtual Machines",
-        "source": "multiple"
-    },
-    "Q30_Part_14": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Warehouse Builder",
-        "source": "multiple"
-    },
-    "Q21_Part_13": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q28_Part_16": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - DataRobot",
-        "source": "multiple"
-    },
-    "Q38_Part_12": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Journal Publications",
-        "source": "multiple"
-    },
-    "Q36_Part_12": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q38_Part_22": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q38_Part_10": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - FiveThirtyEight.com",
-        "source": "multiple"
-    },
-    "Q11_Part_7": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q34_Part_2": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Cleaning data",
-        "source": "multiple"
-    },
-    "Q44_Part_1": {
-        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Lack of communication between individuals who collect the data and individuals who analyze the data",
-        "source": "multiple"
-    },
-    "Q38_Part_20": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Analytics Vidhya Blog",
-        "source": "multiple"
-    },
-    "Q27_Part_18": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Foundry",
-        "source": "multiple"
-    },
-    "Q31_Part_2": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Categorical Data",
-        "source": "multiple"
-    },
-    "Q13_Part_5": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - nteract",
-        "source": "multiple"
-    },
-    "Q29_Part_20": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cosmos DB",
-        "source": "multiple"
-    },
-    "Q27_Part_10": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Container Service",
-        "source": "multiple"
-    },
-    "Q42_Part_2": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Metrics that consider accuracy",
-        "source": "multiple"
-    },
-    "Q28_Part_19": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAS",
-        "source": "multiple"
-    },
-    "Q38_Part_16": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Partially Derivative Podcast",
-        "source": "multiple"
-    },
-    "Q13_Part_7": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - MATLAB",
-        "source": "multiple"
-    },
-    "Q36_Part_4": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - DataCamp",
-        "source": "multiple"
-    },
-    "Q26": {
-        "question": "Do you consider yourself to be a data scientist?",
-        "source": "multiple"
-    },
-    "Q37": {
-        "question": "On which online platform have you spent the most amount of time? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q31_Part_9": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Text Data",
-        "source": "multiple"
-    },
-    "Q19_Part_18": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q34_OTHER_TEXT": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Other",
-        "source": "both"
-    },
-    "Q36_Part_9": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Udemy",
-        "source": "multiple"
-    },
-    "Q30_Part_13": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Exadata",
-        "source": "multiple"
-    },
-    "Q30_Part_11": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Teradata",
-        "source": "multiple"
-    },
-    "Q19_Part_7": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Fastai",
-        "source": "multiple"
-    },
-    "Q13_Part_6": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Atom",
-        "source": "multiple"
-    },
-    "Q21_Part_6": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Plotly",
-        "source": "multiple"
-    },
-    "Q31_Part_5": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Image Data",
-        "source": "multiple"
-    },
-    "Q38_Part_3": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - r/machinelearning",
-        "source": "multiple"
-    },
-    "Q28_Part_33": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Video API",
-        "source": "multiple"
-    },
-    "Q2": {
-        "question": "What is your age (# years)?",
-        "source": "multiple"
-    },
-    "Q13_Part_3": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - PyCharm",
-        "source": "multiple"
-    },
-    "Q14_Part_9": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - JupyterHub/Binder",
-        "source": "multiple"
-    },
-    "Q33_Part_9": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - GitHub",
-        "source": "multiple"
-    },
-    "Q47_Part_12": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - ELI5 functions",
-        "source": "multiple"
-    },
-    "Q48": {
-        "question": "Do you consider ML models to be \"black boxes\" with outputs that are difficult or impossible to explain?",
-        "source": "multiple"
-    },
-    "Q29_Part_2": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Aurora",
-        "source": "multiple"
-    },
-    "Q49_Part_7": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Make sure the code is human-readable",
-        "source": "multiple"
-    },
-    "Q22": {
-        "question": "Of the choices that you selected in the previous question, which specific data visualization library or tool have you used the most? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q45_Part_6": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - I do not explore and interpret model insights and predictions",
-        "source": "multiple"
-    },
-    "Q16_Part_13": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - C#/.NET",
-        "source": "multiple"
-    },
-    "Q35_Part_5": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Kaggle competitions",
-        "source": "multiple"
-    },
-    "Q21_Part_7": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Bokeh",
-        "source": "multiple"
-    },
-    "Q42_OTHER_TEXT": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_18": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Domino Datalab",
-        "source": "multiple"
-    },
-    "Q44_Part_6": {
-        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - I have never performed this task",
-        "source": "multiple"
-    },
-    "Q50_Part_1": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Too expensive",
-        "source": "multiple"
-    },
-    "Q47_Part_2": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine feature correlations",
-        "source": "multiple"
-    },
-    "Q28_Part_8": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Translation API",
-        "source": "multiple"
-    },
-    "Q7_OTHER_TEXT": {
-        "question": "In what industry is your current employer/contract (or your most recent employer if retired)? - Other - Text",
-        "source": "both"
-    },
-    "Q38_Part_13": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - FastML Blog",
-        "source": "multiple"
-    },
-    "Q14_Part_3": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Notebook",
-        "source": "multiple"
-    },
-    "Q29_Part_24": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose for MySQL",
-        "source": "multiple"
-    },
-    "Q47_Part_11": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - LIME functions",
-        "source": "multiple"
-    },
-    "Q15_Part_1": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Platform (GCP)",
-        "source": "multiple"
-    },
-    "Q30_Part_21": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM InfoSphere DataStorage",
-        "source": "multiple"
-    },
-    "Q49_Part_9": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Define relative rather than absolute file paths",
-        "source": "multiple"
-    },
-    "Q11_Part_5": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Do research that advances the state of the art of machine learning",
-        "source": "multiple"
-    },
-    "Q33_Part_8": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Google Dataset Search",
-        "source": "multiple"
-    },
-    "Q36_Part_5": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - DataQuest",
-        "source": "multiple"
-    },
-    "Q30_Part_16": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Snowflake",
-        "source": "multiple"
-    },
-    "Q13_Part_15": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q8": {
-        "question": "How many years of experience do you have in your current role?",
-        "source": "multiple"
-    },
-    "Q29_Part_12": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SQLite",
-        "source": "multiple"
-    },
-    "Q35_OTHER_TEXT": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Other - Text",
-        "source": "both"
-    },
-    "Q1_OTHER_TEXT": {
-        "question": "What is your gender? - Prefer to self-describe - Text",
-        "source": "both"
-    },
-    "Q19_Part_6": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - H20",
-        "source": "multiple"
-    },
-    "Q30_Part_23": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Streaming Analytics",
-        "source": "multiple"
-    },
-    "Q28_Part_31": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Computer Vision API",
-        "source": "multiple"
-    },
-    "Q12_Part_3_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Business intelligence software (Salesforce, Tableau, Spotfire, etc.) - Text",
-        "source": "both"
-    },
-    "Q49_Part_8": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Define all random seeds",
-        "source": "multiple"
-    },
-    "Q30_Part_20": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Stream Analytics",
-        "source": "multiple"
-    },
-    "Q41_Part_2": {
-        "question": "How do you perceive the importance of the following topics? - Being able to explain ML model outputs and/or predictions",
-        "source": "multiple"
-    },
-    "Q50_Part_8": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q33_Part_1": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Government websites",
-        "source": "multiple"
-    },
-    "Q15_Part_4": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud",
-        "source": "multiple"
-    },
-    "Q38_Part_1": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Twitter",
-        "source": "multiple"
-    },
-    "Q18": {
-        "question": "What programming language would you recommend an aspiring data scientist to learn first? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q28_Part_14": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon SageMaker",
-        "source": "multiple"
-    },
-    "Q29_Part_8": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS SimpleDB",
-        "source": "multiple"
-    },
-    "Q30_Part_22": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Analytics Engine",
-        "source": "multiple"
-    },
-    "Q28_Part_32": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Face API",
-        "source": "multiple"
-    },
-    "Q29_OTHER_TEXT": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q30_Part_18": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure SQL Data Warehouse",
-        "source": "multiple"
-    },
-    "Q29_Part_27": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q45_Part_2": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - For all models right before putting the model in production",
-        "source": "multiple"
-    },
-    "Q27_Part_12": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Event Grid",
-        "source": "multiple"
-    },
-    "Q14_OTHER_TEXT": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q14_Part_6": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Paperspace",
-        "source": "multiple"
-    },
-    "Q12_OTHER_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Other - Text",
-        "source": "both"
-    },
-    "Q31_Part_7": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Sensor Data",
-        "source": "multiple"
-    },
-    "Q30_Part_25": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q30_Part_15": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAP IQ",
-        "source": "multiple"
-    },
-    "Q38_Part_5": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Fastai forums",
-        "source": "multiple"
-    },
-    "Q29_Part_6": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Datastore",
-        "source": "multiple"
-    },
-    "Q44_Part_2": {
-        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Difficulty in identifying groups that are unfairly targeted",
-        "source": "multiple"
-    },
-    "Q41_Part_3": {
-        "question": "How do you perceive the importance of the following topics? - Reproducibility in data science",
-        "source": "multiple"
-    },
-    "Q33_Part_3": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Non-profit research group websites",
-        "source": "multiple"
-    },
-    "Q49_Part_12": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q28_Part_6": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Natural Language API",
-        "source": "multiple"
-    },
-    "Q39_Part_2": {
-        "question": "How do you perceive the quality of online learning platforms and in-person bootcamps as compared to the quality of the education provided by traditional brick and mortar institutions? - In-person bootcamps:",
-        "source": "multiple"
-    },
-    "Q15_Part_2": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Web Services (AWS)",
-        "source": "multiple"
-    },
-    "Q17_OTHER_TEXT": {
-        "question": "What specific programming language do you use most often? - Other - Text",
-        "source": "both"
-    },
-    "Q45_Part_1": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - Only for very important models that are already in production",
-        "source": "multiple"
-    },
-    "Q29_Part_22": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Database for PostgreSQL",
-        "source": "multiple"
-    },
-    "Q19_Part_17": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Caffe",
-        "source": "multiple"
-    },
-    "Q50_OTHER_TEXT": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q29_Part_10": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - MySQL",
-        "source": "multiple"
-    },
-    "Q27_Part_20": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q33_Part_10": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - None/I do not work with public data",
-        "source": "multiple"
-    },
-    "Q33_Part_2": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - University research group websites",
-        "source": "multiple"
-    },
-    "Q36_Part_2": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Coursera",
-        "source": "multiple"
-    },
-    "Time from Start to Finish (seconds)": {
-        "question": "Duration (in seconds)",
-        "source": "multiple"
-    },
-    "Q45_Part_3": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When determining whether it is worth it to put the model into production",
-        "source": "multiple"
-    },
-    "Q29_Part_17": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAP IQ",
-        "source": "multiple"
-    },
-    "Q1": {
-        "question": "What is your gender? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q49_Part_4": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share data, code, and environment using containers (Docker, etc.)",
-        "source": "multiple"
-    },
-    "Q19_Part_10": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Xgboost",
-        "source": "multiple"
-    },
-    "Q30_Part_3": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataproc",
-        "source": "multiple"
-    },
-    "Q28_Part_40": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Machine Learning",
-        "source": "multiple"
-    },
-    "Q32_OTHER": {
-        "question": "What is the type of data that you currently interact with most often at work or school? - Other Data - Text",
-        "source": "both"
-    },
-    "Q40": {
-        "question": "Which better demonstrates expertise in data science: academic achievements or independent projects? - Your views:",
-        "source": "multiple"
-    },
-    "Q13_Part_9": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Notepad++",
-        "source": "multiple"
-    },
-    "Q29_Part_16": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - NexusDB",
-        "source": "multiple"
-    },
-    "Q13_OTHER_TEXT": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q20": {
-        "question": "Of the choices that you selected in the previous question, which ML library have you used the most? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q19_Part_19": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q27_Part_17": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Kubernetes Service",
-        "source": "multiple"
-    },
-    "Q11_OTHER_TEXT": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q21_Part_4": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Shiny",
-        "source": "multiple"
-    },
-    "Q16_Part_2": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - R",
-        "source": "multiple"
-    },
-    "Q28_Part_39": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Visual Recognition",
-        "source": "multiple"
-    },
-    "Q6": {
-        "question": "Select the title most similar to your current role (or most recent title if retired): - Selected Choice",
-        "source": "multiple"
-    },
-    "Q28_Part_41": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cognitive Services",
-        "source": "multiple"
-    },
-    "Q30_Part_4": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataflow",
-        "source": "multiple"
-    },
-    "Q13_Part_4": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Visual Studio Code",
-        "source": "multiple"
-    },
-    "Q47_Part_13": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - SHAP functions",
-        "source": "multiple"
-    },
-    "Q30_Part_10": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google BigQuery",
-        "source": "multiple"
-    },
-    "Q38_Part_11": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - ArXiv & Preprints",
-        "source": "multiple"
-    },
-    "Q38_OTHER_TEXT": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_20": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Dataiku",
-        "source": "multiple"
-    },
-    "Q35_Part_2": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Online courses (Coursera, Udemy, edX, etc.)",
-        "source": "multiple"
-    },
-    "Q13_Part_12": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IntelliJ",
-        "source": "multiple"
-    },
-    "Q50_Part_3": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Requires too much technical knowledge",
-        "source": "multiple"
-    },
-    "Q28_Part_28": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cortana Intelligence Suite",
-        "source": "multiple"
-    },
-    "Q29_Part_1": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Relational Database Service",
-        "source": "multiple"
-    },
-    "Q19_Part_9": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Caret",
-        "source": "multiple"
-    },
-    "Q29_Part_25": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose for PostgreSQL",
-        "source": "multiple"
-    },
-    "Q35_Part_1": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Self-taught",
-        "source": "multiple"
-    },
-    "Q20_OTHER_TEXT": {
-        "question": "Of the choices that you selected in the previous question, which ML library have you used the most? - Other - Text",
-        "source": "both"
-    },
-    "Q29_Part_28": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q25": {
-        "question": "For how many years have you used machine learning methods (at work or in school)?",
-        "source": "multiple"
-    },
-    "Q14_Part_1": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Kaggle Kernels",
-        "source": "multiple"
-    },
-    "Q12_Part_2_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Advanced statistical software (SPSS, SAS, etc.) - Text",
-        "source": "both"
-    },
-    "Q13_Part_11": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Vim",
-        "source": "multiple"
-    },
-    "Q19_Part_13": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - randomForest",
-        "source": "multiple"
-    },
-    "Q19_Part_5": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Spark MLlib",
-        "source": "multiple"
-    },
-    "Q28_Part_3": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Rekognition",
-        "source": "multiple"
-    },
-    "Q35_Part_6": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Other",
-        "source": "multiple"
-    },
-    "Q28_Part_11": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Rekognition Video",
-        "source": "multiple"
-    },
-    "Q27_Part_3": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Elastic Beanstalk",
-        "source": "multiple"
-    },
-    "Q21_OTHER_TEXT": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q27_Part_15": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Virtual Servers",
-        "source": "multiple"
-    },
-    "Q27_Part_13": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Batch",
-        "source": "multiple"
-    },
-    "Q19_OTHER_TEXT": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q21_Part_1": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - ggplot2",
-        "source": "multiple"
-    },
-    "Q34_Part_5": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Putting the model into production",
-        "source": "multiple"
-    },
-    "Q49_Part_2": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share both data and code on Github or a similar code-sharing repository",
-        "source": "multiple"
-    },
-    "Q16_Part_3": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - SQL",
-        "source": "multiple"
-    },
-    "Q33_Part_11": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q36_Part_11": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Online University Courses",
-        "source": "multiple"
-    },
-    "Q42_Part_1": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Revenue and/or business goals",
-        "source": "multiple"
-    },
-    "Q31_Part_10": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Time Series Data",
-        "source": "multiple"
-    },
-    "Q36_Part_8": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - developers.google.com",
-        "source": "multiple"
-    },
-    "Q27_Part_6": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Lambda",
-        "source": "multiple"
-    },
-    "Q28_Part_43": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q47_Part_15": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q27_Part_4": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google App Engine",
-        "source": "multiple"
-    },
-    "Q13_Part_13": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Spyder",
-        "source": "multiple"
-    },
-    "Q34_Part_4": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Model building/model selection",
-        "source": "multiple"
-    },
-    "Q33_Part_5": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - I collect my own data (web-scraping, etc.)",
-        "source": "multiple"
-    },
-    "Q28_Part_10": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Dialogflow Enterprise Edition",
-        "source": "multiple"
-    },
-    "Q14_Part_5": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Datalab",
-        "source": "multiple"
-    },
-    "Q16_Part_16": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - SAS/STATA",
-        "source": "multiple"
-    },
-    "Q14_Part_7": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Floydhub",
-        "source": "multiple"
-    },
-    "Q30_Part_7": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Pub/Sub",
-        "source": "multiple"
-    },
-    "Q11_Part_4": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build prototypes to explore applying machine learning to new areas",
+    "Q44_Part_5": {
+        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - I have never found any difficulty in this task",
         "source": "multiple"
     },
     "Q28_Part_27": {
         "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Machine Learning Workbench",
         "source": "multiple"
     },
-    "Q33_Part_7": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Google Search",
-        "source": "multiple"
-    },
-    "Q21_Part_3": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Altair",
-        "source": "multiple"
-    },
-    "Q15_Part_5": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Alibaba Cloud",
-        "source": "multiple"
-    },
-    "Q47_Part_10": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Sensitivity analysis/perturbation importance",
-        "source": "multiple"
-    },
-    "Q28_Part_37": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Discovery",
-        "source": "multiple"
-    },
-    "Q14_Part_2": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Colab",
-        "source": "multiple"
-    },
-    "Q18_OTHER_TEXT": {
-        "question": "What programming language would you recommend an aspiring data scientist to learn first? - Other - Text",
+    "Q22_OTHER_TEXT": {
+        "question": "Of the choices that you selected in the previous question, which specific data visualization library or tool have you used the most? - Other - Text",
         "source": "both"
     },
-    "Q16_Part_5": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Java",
-        "source": "multiple"
-    },
-    "Q31_OTHER_TEXT": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Other Data - Text",
-        "source": "both"
-    },
-    "Q29_Part_9": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft SQL Server",
-        "source": "multiple"
-    },
-    "Q35_Part_3": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Work",
-        "source": "multiple"
-    },
-    "Q7": {
-        "question": "In what industry is your current employer/contract (or your most recent employer if retired)? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q14_Part_4": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Domino Datalab",
-        "source": "multiple"
-    },
-    "Q27_Part_1": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Elastic Compute Cloud (EC2)",
-        "source": "multiple"
-    },
-    "Q29_Part_15": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Access",
-        "source": "multiple"
-    },
-    "Q29_Part_19": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Database for MySQL",
-        "source": "multiple"
-    },
-    "Q19_Part_16": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - CNTK",
-        "source": "multiple"
-    },
-    "Q28_Part_38": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Text to Speech",
-        "source": "multiple"
-    },
-    "Q29_Part_7": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Bigtable",
-        "source": "multiple"
-    },
-    "Q35_Part_4": {
-        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - University",
-        "source": "multiple"
-    },
-    "Q29_Part_3": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud SQL",
-        "source": "multiple"
-    },
-    "Q3": {
-        "question": "In which country do you currently reside?",
-        "source": "multiple"
-    },
-    "Q28_Part_17": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - H20 Driverless AI",
-        "source": "multiple"
-    },
-    "Q45_Part_5": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When first exploring a new ML model or dataset",
-        "source": "multiple"
-    },
-    "Q19_Part_14": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - lightgbm",
-        "source": "multiple"
-    },
-    "Q19_Part_2": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - TensorFlow",
-        "source": "multiple"
-    },
-    "Q31_Part_11": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Video Data",
-        "source": "multiple"
-    },
-    "Q36_Part_7": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Fast.AI",
-        "source": "multiple"
-    },
-    "Q19_Part_12": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Prophet",
-        "source": "multiple"
-    },
-    "Q16_Part_11": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Julia",
-        "source": "multiple"
-    },
-    "Q28_Part_24": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Dataversity",
-        "source": "multiple"
-    },
-    "Q27_OTHER_TEXT": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_12": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Video Intelligence API",
-        "source": "multiple"
-    },
-    "Q38_Part_8": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Linear Digressions Podcast",
-        "source": "multiple"
-    },
-    "Q16_Part_1": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Python",
-        "source": "multiple"
-    },
-    "Q27_Part_16": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Container Registry",
-        "source": "multiple"
-    },
-    "Q38_Part_9": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Cloud AI Adventures (YouTube)",
-        "source": "multiple"
-    },
-    "Q15_Part_6": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - I have not used any cloud providers",
-        "source": "multiple"
-    },
-    "Q47_Part_9": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Print out a decision tree",
-        "source": "multiple"
-    },
-    "Q49_Part_5": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share code, data, and environment using virtual machines (VirtualBox, etc.)",
-        "source": "multiple"
-    },
-    "Q28_Part_22": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Instabase",
-        "source": "multiple"
-    },
-    "Q14_Part_8": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Crestle",
-        "source": "multiple"
-    },
-    "Q38_Part_7": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - DataTau News Aggregator",
-        "source": "multiple"
-    },
-    "Q21_Part_2": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Matplotlib",
-        "source": "multiple"
-    },
-    "Q30_Part_19": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure HDInsight",
+    "Q13_Part_11": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Vim",
         "source": "multiple"
     },
     "Q28_Part_42": {
         "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
         "source": "multiple"
     },
-    "Q24": {
-        "question": "How long have you been writing code to analyze data?",
+    "Q19_Part_18": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - None",
         "source": "multiple"
     },
-    "Q9": {
-        "question": "What is your current yearly compensation (approximate $USD)?",
+    "Q38_Part_11": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - ArXiv & Preprints",
         "source": "multiple"
     },
-    "Q31_Part_12": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Other Data",
+    "Q14_Part_1": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Kaggle Kernels",
         "source": "multiple"
     },
-    "Q49_OTHER_TEXT": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_4": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Vision API",
+    "Q16_Part_16": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - SAS/STATA",
         "source": "multiple"
     },
-    "Q50_Part_2": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Too time-consuming",
+    "Q33_Part_2": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - University research group websites",
         "source": "multiple"
     },
-    "Q47_Part_7": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Attention mapping/saliency mapping",
-        "source": "multiple"
-    },
-    "Q29_Part_13": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Database",
-        "source": "multiple"
-    },
-    "Q19_Part_3": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Keras",
-        "source": "multiple"
-    },
-    "Q16_Part_12": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Go",
-        "source": "multiple"
-    },
-    "Q39_Part_1": {
-        "question": "How do you perceive the quality of online learning platforms and in-person bootcamps as compared to the quality of the education provided by traditional brick and mortar institutions? - Online learning platforms and MOOCs:",
-        "source": "multiple"
-    },
-    "Q14_Part_11": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q29_Part_18": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Fusion Tables",
-        "source": "multiple"
-    },
-    "Q13_Part_1": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Jupyter/IPython",
-        "source": "multiple"
-    },
-    "Q27_Part_14": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Kubernetes Service",
-        "source": "multiple"
-    },
-    "Q19_Part_11": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - mlr",
-        "source": "multiple"
-    },
-    "Q16_OTHER_TEXT": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q13_Part_2": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - RStudio",
-        "source": "multiple"
-    },
-    "Q11_Part_1": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Analyze and understand data to influence product or business decisions",
-        "source": "multiple"
-    },
-    "Q34_Part_6": {
-        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Finding insights in the data and communicating with stakeholders",
-        "source": "multiple"
-    },
-    "Q41_Part_1": {
-        "question": "How do you perceive the importance of the following topics? - Fairness and bias in ML algorithms:",
-        "source": "multiple"
-    },
-    "Q13_Part_10": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Sublime Text",
-        "source": "multiple"
-    },
-    "Q43": {
-        "question": "Approximately what percent of your data projects involved exploring unfair bias in the dataset and/or algorithm?",
-        "source": "multiple"
-    },
-    "Q21_Part_12": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q12_Part_5_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Cloud-based data software & APIs (AWS, GCP, Azure, etc.) - Text",
-        "source": "both"
-    },
-    "Q28_Part_9": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Lex",
-        "source": "multiple"
-    },
-    "Q38_Part_14": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - KDnuggets Blog",
-        "source": "multiple"
-    },
-    "Q12_Part_4_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Local or hosted development environments (RStudio, JupyterLab, etc.) - Text",
-        "source": "both"
-    },
-    "Q28_Part_21": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - RapidMiner",
-        "source": "multiple"
-    },
-    "Q13_Part_8": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Visual Studio",
-        "source": "multiple"
-    },
-    "Q36_Part_1": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Udacity",
-        "source": "multiple"
-    },
-    "Q28_Part_30": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Speaker Recognition API",
-        "source": "multiple"
-    },
-    "Q28_Part_29": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Bing Speech API",
-        "source": "multiple"
-    },
-    "Q30_Part_5": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataprep",
-        "source": "multiple"
-    },
-    "Q47_Part_5": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Create partial dependence plots",
-        "source": "multiple"
-    },
-    "Q33_OTHER_TEXT": {
-        "question": "Where do you find public datasets? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_34": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Studio",
-        "source": "multiple"
-    },
-    "Q49_Part_11": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - None/I do not make my work easy for others to reproduce",
-        "source": "multiple"
-    },
-    "Q10": {
-        "question": "Does your current employer incorporate machine learning methods into their business?",
-        "source": "multiple"
-    },
-    "Q21_Part_8": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Seaborn",
-        "source": "multiple"
-    },
-    "Q16_Part_7": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Visual Basic/VBA",
-        "source": "multiple"
-    },
-    "Q19_Part_8": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Mxnet",
-        "source": "multiple"
-    },
-    "Q22_OTHER_TEXT": {
-        "question": "Of the choices that you selected in the previous question, which specific data visualization library or tool have you used the most? - Other - Text",
-        "source": "both"
-    },
-    "Q31_Part_4": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Geospatial Data",
-        "source": "multiple"
-    },
-    "Q32": {
-        "question": "What is the type of data that you currently interact with most often at work or school? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q11_Part_2": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build and/or run a machine learning service that operationally improves my product or workflows",
-        "source": "multiple"
-    },
-    "Q19_Part_4": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - PyTorch",
-        "source": "multiple"
-    },
-    "Q16_Part_15": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Ruby",
-        "source": "multiple"
-    },
-    "Q30_Part_17": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Databricks",
-        "source": "multiple"
-    },
-    "Q27_Part_19": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q38_Part_15": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - O'Reilly Data Newsletter",
-        "source": "multiple"
-    },
-    "Q29_Part_4": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Spanner",
-        "source": "multiple"
-    },
-    "Q14_Part_10": {
-        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
-        "source": "multiple"
-    },
-    "Q47_Part_6": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Dimensionality reduction techniques",
-        "source": "multiple"
-    },
-    "Q50_Part_7": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - None of these reasons apply to me",
-        "source": "multiple"
-    },
-    "Q29_Part_23": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose",
-        "source": "multiple"
-    },
-    "Q16_Part_18": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q28_Part_36": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Assistant",
-        "source": "multiple"
-    },
-    "Q30_Part_1": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Elastic MapReduce",
-        "source": "multiple"
-    },
-    "Q21_Part_5": {
-        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - D3",
-        "source": "multiple"
-    },
-    "Q28_Part_25": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Cloudera",
-        "source": "multiple"
-    },
-    "Q28_OTHER_TEXT": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q38_Part_18": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Medium Blog Posts",
-        "source": "multiple"
-    },
-    "Q38_Part_6": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Siraj Raval YouTube Channel",
-        "source": "multiple"
-    },
-    "Q28_Part_13": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud AutoML",
-        "source": "multiple"
-    },
-    "Q47_Part_1": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine individual model coefficients",
-        "source": "multiple"
-    },
-    "Q15_Part_7": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
-        "source": "multiple"
-    },
-    "Q42_Part_3": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Metrics that consider unfair bias",
-        "source": "multiple"
-    },
-    "Q4": {
-        "question": "What is the highest level of formal education that you have attained or plan to attain within the next 2 years?",
+    "Q7": {
+        "question": "In what industry is your current employer/contract (or your most recent employer if retired)? - Selected Choice",
         "source": "multiple"
     },
     "Q16_Part_4": {
         "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Bash",
         "source": "multiple"
     },
+    "Q28_Part_30": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Speaker Recognition API",
+        "source": "multiple"
+    },
+    "Q30_Part_1": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Elastic MapReduce",
+        "source": "multiple"
+    },
+    "Q34_Part_6": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Finding insights in the data and communicating with stakeholders",
+        "source": "multiple"
+    },
+    "Q31_Part_8": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Tabular Data",
+        "source": "multiple"
+    },
+    "Q31_Part_6": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Numerical Data",
+        "source": "multiple"
+    },
+    "Q33_Part_7": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Google Search",
+        "source": "multiple"
+    },
+    "Q31_Part_2": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Categorical Data",
+        "source": "multiple"
+    },
+    "Q49_Part_2": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share both data and code on Github or a similar code-sharing repository",
+        "source": "multiple"
+    },
+    "Q33_Part_11": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q30_Part_9": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Redshift",
+        "source": "multiple"
+    },
     "Q28_Part_1": {
         "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Transcribe",
-        "source": "multiple"
-    },
-    "Q30_Part_8": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Athena",
-        "source": "multiple"
-    },
-    "Q30_Part_24": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
         "source": "multiple"
     },
     "Q21_Part_11": {
         "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Lattice",
         "source": "multiple"
     },
-    "Q50_Part_6": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - I had never considered making my work easier for others to reproduce",
+    "Q29_Part_15": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Access",
         "source": "multiple"
     },
-    "Q49_Part_3": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share data, code, and environment using a hosted service (Kaggle Kernels, Google Colaboratory, Amazon SageMaker, etc.)",
+    "Q27_Part_4": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google App Engine",
         "source": "multiple"
     },
-    "Q37_OTHER_TEXT": {
-        "question": "On which online platform have you spent the most amount of time? - Other - Text",
-        "source": "both"
-    },
-    "Q31_Part_6": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Numerical Data",
-        "source": "multiple"
-    },
-    "Q23": {
-        "question": "Approximately what percent of your time at work or school is spent actively coding?",
-        "source": "multiple"
-    },
-    "Q19_Part_15": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - catboost",
-        "source": "multiple"
-    },
-    "Q19_Part_1": {
-        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Scikit-Learn",
-        "source": "multiple"
-    },
-    "Q27_Part_8": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Batch",
-        "source": "multiple"
-    },
-    "Q11_Part_6": {
-        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - None of these activities are an important part of my role at work",
-        "source": "multiple"
-    },
-    "Q17": {
-        "question": "What specific programming language do you use most often? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q27_Part_11": {
-        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Functions",
-        "source": "multiple"
-    },
-    "Q38_Part_4": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Kaggle forums",
-        "source": "multiple"
-    },
-    "Q28_Part_35": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Knowledge Catalog",
+    "Q28_Part_29": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Bing Speech API",
         "source": "multiple"
     },
     "Q47_Part_16": {
         "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Other - Text",
         "source": "multiple"
     },
-    "Q45_Part_4": {
-        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When building a model that was specifically designed to produce such insights",
+    "Q21_Part_7": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Bokeh",
         "source": "multiple"
     },
-    "Q36_Part_13": {
-        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Other",
+    "Q42_Part_1": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Revenue and/or business goals",
         "source": "multiple"
     },
-    "Q44_Part_3": {
-        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Difficulty in collecting enough data about groups that may be unfairly targeted",
+    "Q30_Part_4": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataflow",
         "source": "multiple"
     },
-    "Q47_Part_3": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine feature importances",
+    "Q41_Part_2": {
+        "question": "How do you perceive the importance of the following topics? - Being able to explain ML model outputs and/or predictions",
         "source": "multiple"
     },
-    "Q47_Part_14": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - None/I do not use these model explanation techniques",
+    "Q38_Part_15": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - O'Reilly Data Newsletter",
         "source": "multiple"
     },
-    "Q30_Part_2": {
-        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Batch",
+    "Q16_Part_8": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - C/C++",
         "source": "multiple"
     },
-    "Q12_Part_1_TEXT": {
-        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Basic statistical software (Microsoft Excel, Google Sheets, etc.) - Text",
+    "Q16_OTHER_TEXT": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Other - Text",
         "source": "both"
     },
-    "Q38_Part_21": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - None/I do not know",
+    "Q36_Part_3": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - edX",
         "source": "multiple"
     },
-    "Q50_Part_4": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Afraid that others will use my work without giving proper credit",
+    "Q38_Part_6": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Siraj Raval YouTube Channel",
         "source": "multiple"
     },
-    "Q28_Part_23": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Algorithmia",
+    "Q14_Part_8": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Crestle",
         "source": "multiple"
     },
-    "Q47_Part_8": {
-        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Plot predicted vs. actual results",
+    "Q31_Part_11": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Video Data",
         "source": "multiple"
     },
-    "Q44_Part_5": {
-        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - I have never found any difficulty in this task",
+    "Q16_Part_18": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Other",
         "source": "multiple"
     },
-    "Q13_Part_14": {
-        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
+    "Q28_Part_17": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - H20 Driverless AI",
         "source": "multiple"
     },
-    "Q28_Part_5": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Comprehend",
+    "Q49_Part_12": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Other",
         "source": "multiple"
     },
-    "Q38_Part_2": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Hacker News",
+    "Q36_Part_6": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Kaggle Learn",
         "source": "multiple"
     },
-    "Q31_Part_3": {
-        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Genetic Data",
-        "source": "multiple"
-    },
-    "Q29_Part_21": {
-        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure SQL Database",
-        "source": "multiple"
-    },
-    "Q33_Part_4": {
-        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Dataset aggregator/platform (Socrata, Kaggle Public Datasets Platform, etc.)",
-        "source": "multiple"
-    },
-    "Q5": {
-        "question": "Which best describes your undergraduate major? - Selected Choice",
-        "source": "multiple"
-    },
-    "Q49_Part_1": {
-        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share code on Github or a similar code-sharing repository",
-        "source": "multiple"
-    },
-    "Q16_Part_9": {
-        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - MATLAB",
-        "source": "multiple"
-    },
-    "Q6_OTHER_TEXT": {
-        "question": "Select the title most similar to your current role (or most recent title if retired): - Other - Text",
+    "Q17_OTHER_TEXT": {
+        "question": "What specific programming language do you use most often? - Other - Text",
         "source": "both"
     },
-    "Q42_Part_4": {
-        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Not applicable (I am not involved with an organization that builds ML models)",
+    "Q50_OTHER_TEXT": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q47_Part_5": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Create partial dependence plots",
         "source": "multiple"
     },
-    "Q50_Part_5": {
-        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Not enough incentives to share my work",
+    "Q10": {
+        "question": "Does your current employer incorporate machine learning methods into their business?",
+        "source": "multiple"
+    },
+    "Q30_Part_24": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q28_Part_24": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Dataversity",
+        "source": "multiple"
+    },
+    "Q21_OTHER_TEXT": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q36_Part_1": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Udacity",
+        "source": "multiple"
+    },
+    "Q15_Part_3": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Azure",
         "source": "multiple"
     },
     "Q36_Part_10": {
         "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - TheSchool.AI",
         "source": "multiple"
     },
-    "Q15_OTHER_TEXT": {
-        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
-        "source": "both"
-    },
-    "Q28_Part_7": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Translate",
+    "Q27_Part_20": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Other",
         "source": "multiple"
     },
-    "Q28_Part_26": {
-        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Machine Learning Studio",
+    "Q11_Part_2": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build and/or run a machine learning service that operationally improves my product or workflows",
         "source": "multiple"
     },
-    "Q38_Part_17": {
-        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - The Data Skeptic Podcast",
+    "Q21_Part_4": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Shiny",
+        "source": "multiple"
+    },
+    "Q19_Part_4": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - PyTorch",
+        "source": "multiple"
+    },
+    "Q27_Part_10": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Container Service",
+        "source": "multiple"
+    },
+    "Q27_Part_9": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Virtual Machines",
+        "source": "multiple"
+    },
+    "Q28_Part_9": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Lex",
+        "source": "multiple"
+    },
+    "Q34_Part_2": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Cleaning data",
+        "source": "multiple"
+    },
+    "Q13_Part_2": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - RStudio",
+        "source": "multiple"
+    },
+    "Q19_Part_11": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - mlr",
+        "source": "multiple"
+    },
+    "Q29_Part_7": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Bigtable",
+        "source": "multiple"
+    },
+    "Q30_Part_13": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Exadata",
+        "source": "multiple"
+    },
+    "Q19_Part_1": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Scikit-Learn",
+        "source": "multiple"
+    },
+    "Q29_Part_2": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Aurora",
+        "source": "multiple"
+    },
+    "Q27_Part_12": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Event Grid",
+        "source": "multiple"
+    },
+    "Q16_Part_2": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - R",
+        "source": "multiple"
+    },
+    "Q28_Part_10": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Dialogflow Enterprise Edition",
+        "source": "multiple"
+    },
+    "Q47_Part_6": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Dimensionality reduction techniques",
+        "source": "multiple"
+    },
+    "Q11_Part_5": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Do research that advances the state of the art of machine learning",
+        "source": "multiple"
+    },
+    "Q36_Part_4": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - DataCamp",
         "source": "multiple"
     },
     "Q44_Part_4": {
         "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Difficulty in identifying and selecting the appropriate evaluation metrics",
         "source": "multiple"
     },
+    "Q13_Part_6": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Atom",
+        "source": "multiple"
+    },
+    "Q14_Part_5": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Datalab",
+        "source": "multiple"
+    },
+    "Q44_Part_6": {
+        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - I have never performed this task",
+        "source": "multiple"
+    },
+    "Q37": {
+        "question": "On which online platform have you spent the most amount of time? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q14_Part_11": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q42_OTHER_TEXT": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q47_Part_12": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - ELI5 functions",
+        "source": "multiple"
+    },
+    "Q6_OTHER_TEXT": {
+        "question": "Select the title most similar to your current role (or most recent title if retired): - Other - Text",
+        "source": "both"
+    },
+    "Q38_Part_16": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Partially Derivative Podcast",
+        "source": "multiple"
+    },
+    "Q27_Part_13": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Batch",
+        "source": "multiple"
+    },
+    "Q50_Part_5": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Not enough incentives to share my work",
+        "source": "multiple"
+    },
+    "Q36_OTHER_TEXT": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q44_Part_1": {
+        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Lack of communication between individuals who collect the data and individuals who analyze the data",
+        "source": "multiple"
+    },
+    "Q13_Part_10": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Sublime Text",
+        "source": "multiple"
+    },
+    "Q30_Part_14": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Warehouse Builder",
+        "source": "multiple"
+    },
+    "Q19_Part_12": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Prophet",
+        "source": "multiple"
+    },
+    "Q29_OTHER_TEXT": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q47_Part_7": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Attention mapping/saliency mapping",
+        "source": "multiple"
+    },
+    "Q28_Part_35": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Knowledge Catalog",
+        "source": "multiple"
+    },
+    "Q19_Part_9": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Caret",
+        "source": "multiple"
+    },
+    "Q16_Part_12": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Go",
+        "source": "multiple"
+    },
+    "Q29_Part_1": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Relational Database Service",
+        "source": "multiple"
+    },
+    "Q30_Part_7": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Pub/Sub",
+        "source": "multiple"
+    },
+    "Q28_Part_37": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Discovery",
+        "source": "multiple"
+    },
+    "Q27_Part_7": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Cloud Functions",
+        "source": "multiple"
+    },
+    "Q2": {
+        "question": "What is your age (# years)?",
+        "source": "multiple"
+    },
+    "Time from Start to Finish (seconds)": {
+        "question": "Duration (in seconds)",
+        "source": "multiple"
+    },
+    "Q29_Part_21": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure SQL Database",
+        "source": "multiple"
+    },
+    "Q33_Part_8": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Google Dataset Search",
+        "source": "multiple"
+    },
+    "Q30_Part_17": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Databricks",
+        "source": "multiple"
+    },
+    "Q19_Part_16": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - CNTK",
+        "source": "multiple"
+    },
+    "Q29_Part_20": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cosmos DB",
+        "source": "multiple"
+    },
+    "Q36_Part_2": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Coursera",
+        "source": "multiple"
+    },
+    "Q33_Part_5": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - I collect my own data (web-scraping, etc.)",
+        "source": "multiple"
+    },
+    "Q29_Part_24": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose for MySQL",
+        "source": "multiple"
+    },
+    "Q28_Part_2": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Speech-to-text API",
+        "source": "multiple"
+    },
+    "Q13_Part_13": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Spyder",
+        "source": "multiple"
+    },
+    "Q28_Part_7": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Translate",
+        "source": "multiple"
+    },
+    "Q16_Part_14": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - PHP",
+        "source": "multiple"
+    },
+    "Q16_Part_17": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q50_Part_8": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q6": {
+        "question": "Select the title most similar to your current role (or most recent title if retired): - Selected Choice",
+        "source": "multiple"
+    },
+    "Q27_Part_14": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Kubernetes Service",
+        "source": "multiple"
+    },
+    "Q33_Part_4": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Dataset aggregator/platform (Socrata, Kaggle Public Datasets Platform, etc.)",
+        "source": "multiple"
+    },
+    "Q47_Part_8": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Plot predicted vs. actual results",
+        "source": "multiple"
+    },
+    "Q39_Part_2": {
+        "question": "How do you perceive the quality of online learning platforms and in-person bootcamps as compared to the quality of the education provided by traditional brick and mortar institutions? - In-person bootcamps:",
+        "source": "multiple"
+    },
+    "Q28_Part_34": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Studio",
+        "source": "multiple"
+    },
+    "Q29_Part_4": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Spanner",
+        "source": "multiple"
+    },
+    "Q47_Part_2": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine feature correlations",
+        "source": "multiple"
+    },
+    "Q12_Part_4_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Local or hosted development environments (RStudio, JupyterLab, etc.) - Text",
+        "source": "both"
+    },
+    "Q28_OTHER_TEXT": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q32": {
+        "question": "What is the type of data that you currently interact with most often at work or school? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q50_Part_6": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - I had never considered making my work easier for others to reproduce",
+        "source": "multiple"
+    },
+    "Q13_OTHER_TEXT": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q30_Part_22": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Analytics Engine",
+        "source": "multiple"
+    },
+    "Q8": {
+        "question": "How many years of experience do you have in your current role?",
+        "source": "multiple"
+    },
+    "Q28_Part_15": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Machine Learning Engine",
+        "source": "multiple"
+    },
+    "Q28_Part_19": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAS",
+        "source": "multiple"
+    },
+    "Q15_Part_5": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Alibaba Cloud",
+        "source": "multiple"
+    },
+    "Q46": {
+        "question": "Approximately what percent of your data projects involve exploring model insights?",
+        "source": "multiple"
+    },
+    "Q28_Part_41": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cognitive Services",
+        "source": "multiple"
+    },
+    "Q12_OTHER_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Other - Text",
+        "source": "both"
+    },
+    "Q42_Part_2": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Metrics that consider accuracy",
+        "source": "multiple"
+    },
+    "Q28_Part_14": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon SageMaker",
+        "source": "multiple"
+    },
+    "Q38_Part_10": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - FiveThirtyEight.com",
+        "source": "multiple"
+    },
+    "Q21_Part_12": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q47_Part_1": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine individual model coefficients",
+        "source": "multiple"
+    },
+    "Q14_OTHER_TEXT": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q29_Part_9": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft SQL Server",
+        "source": "multiple"
+    },
+    "Q28_Part_38": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Text to Speech",
+        "source": "multiple"
+    },
+    "Q47_Part_11": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - LIME functions",
+        "source": "multiple"
+    },
+    "Q19_Part_5": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Spark MLlib",
+        "source": "multiple"
+    },
+    "Q34_Part_4": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Model building/model selection",
+        "source": "multiple"
+    },
+    "Q13_Part_15": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q28_Part_23": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Algorithmia",
+        "source": "multiple"
+    },
+    "Q38_Part_8": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Linear Digressions Podcast",
+        "source": "multiple"
+    },
+    "Q15_Part_6": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - I have not used any cloud providers",
+        "source": "multiple"
+    },
+    "Q29_Part_18": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Fusion Tables",
+        "source": "multiple"
+    },
+    "Q11_Part_4": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build prototypes to explore applying machine learning to new areas",
+        "source": "multiple"
+    },
+    "Q36_Part_7": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Fast.AI",
+        "source": "multiple"
+    },
+    "Q12_Part_3_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Business intelligence software (Salesforce, Tableau, Spotfire, etc.) - Text",
+        "source": "both"
+    },
+    "Q30_Part_23": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Streaming Analytics",
+        "source": "multiple"
+    },
+    "Q28_Part_13": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud AutoML",
+        "source": "multiple"
+    },
+    "Q41_Part_1": {
+        "question": "How do you perceive the importance of the following topics? - Fairness and bias in ML algorithms:",
+        "source": "multiple"
+    },
+    "Q29_Part_6": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Datastore",
+        "source": "multiple"
+    },
+    "Q39_Part_1": {
+        "question": "How do you perceive the quality of online learning platforms and in-person bootcamps as compared to the quality of the education provided by traditional brick and mortar institutions? - Online learning platforms and MOOCs:",
+        "source": "multiple"
+    },
+    "Q21_Part_9": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Geoplotlib",
+        "source": "multiple"
+    },
+    "Q29_Part_8": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS SimpleDB",
+        "source": "multiple"
+    },
+    "Q13_Part_5": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - nteract",
+        "source": "multiple"
+    },
+    "Q30_Part_8": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Athena",
+        "source": "multiple"
+    },
+    "Q26": {
+        "question": "Do you consider yourself to be a data scientist?",
+        "source": "multiple"
+    },
+    "Q17": {
+        "question": "What specific programming language do you use most often? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q44_Part_3": {
+        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Difficulty in collecting enough data about groups that may be unfairly targeted",
+        "source": "multiple"
+    },
+    "Q11_Part_1": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Analyze and understand data to influence product or business decisions",
+        "source": "multiple"
+    },
+    "Q21_Part_1": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - ggplot2",
+        "source": "multiple"
+    },
+    "Q13_Part_9": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Notepad++",
+        "source": "multiple"
+    },
+    "Q28_Part_6": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Natural Language API",
+        "source": "multiple"
+    },
+    "Q33_Part_3": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Non-profit research group websites",
+        "source": "multiple"
+    },
+    "Q16_Part_9": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - MATLAB",
+        "source": "multiple"
+    },
+    "Q29_Part_12": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SQLite",
+        "source": "multiple"
+    },
+    "Q50_Part_2": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Too time-consuming",
+        "source": "multiple"
+    },
+    "Q28_Part_20": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Dataiku",
+        "source": "multiple"
+    },
+    "Q25": {
+        "question": "For how many years have you used machine learning methods (at work or in school)?",
+        "source": "multiple"
+    },
+    "Q30_Part_12": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Microsoft Analysis Services",
+        "source": "multiple"
+    },
+    "Q35_Part_5": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Kaggle competitions",
+        "source": "multiple"
+    },
+    "Q27_Part_18": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Foundry",
+        "source": "multiple"
+    },
+    "Q35_OTHER_TEXT": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Other - Text",
+        "source": "both"
+    },
+    "Q28_Part_22": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Instabase",
+        "source": "multiple"
+    },
+    "Q49_Part_11": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - None/I do not make my work easy for others to reproduce",
+        "source": "multiple"
+    },
+    "Q36_Part_5": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - DataQuest",
+        "source": "multiple"
+    },
+    "Q36_Part_11": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Online University Courses",
+        "source": "multiple"
+    },
+    "Q38_Part_17": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - The Data Skeptic Podcast",
+        "source": "multiple"
+    },
+    "Q50_Part_7": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - None of these reasons apply to me",
+        "source": "multiple"
+    },
+    "Q47_Part_4": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Plot decision boundaries",
+        "source": "multiple"
+    },
+    "Q30_Part_20": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Stream Analytics",
+        "source": "multiple"
+    },
+    "Q38_Part_19": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Towards Data Science Blog",
+        "source": "multiple"
+    },
+    "Q31_Part_12": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Other Data",
+        "source": "multiple"
+    },
+    "Q19_Part_8": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Mxnet",
+        "source": "multiple"
+    },
+    "Q29_Part_19": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Database for MySQL",
+        "source": "multiple"
+    },
+    "Q33_OTHER_TEXT": {
+        "question": "Where do you find public datasets? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q21_Part_2": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Matplotlib",
+        "source": "multiple"
+    },
+    "Q49_Part_3": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share data, code, and environment using a hosted service (Kaggle Kernels, Google Colaboratory, Amazon SageMaker, etc.)",
+        "source": "multiple"
+    },
+    "Q14_Part_7": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Floydhub",
+        "source": "multiple"
+    },
+    "Q38_Part_14": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - KDnuggets Blog",
+        "source": "multiple"
+    },
+    "Q38_Part_22": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q28_Part_21": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - RapidMiner",
+        "source": "multiple"
+    },
+    "Q18_OTHER_TEXT": {
+        "question": "What programming language would you recommend an aspiring data scientist to learn first? - Other - Text",
+        "source": "both"
+    },
+    "Q47_Part_13": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - SHAP functions",
+        "source": "multiple"
+    },
+    "Q29_Part_13": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Oracle Database",
+        "source": "multiple"
+    },
+    "Q28_Part_8": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Translation API",
+        "source": "multiple"
+    },
+    "Q28_Part_18": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Domino Datalab",
+        "source": "multiple"
+    },
+    "Q16_Part_15": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Ruby",
+        "source": "multiple"
+    },
+    "Q19_Part_6": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - H20",
+        "source": "multiple"
+    },
+    "Q15_OTHER_TEXT": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q27_Part_17": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Kubernetes Service",
+        "source": "multiple"
+    },
+    "Q29_Part_16": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - NexusDB",
+        "source": "multiple"
+    },
+    "Q33_Part_10": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - None/I do not work with public data",
+        "source": "multiple"
+    },
+    "Q18": {
+        "question": "What programming language would you recommend an aspiring data scientist to learn first? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q31_Part_5": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Image Data",
+        "source": "multiple"
+    },
+    "Q33_Part_1": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Government websites",
+        "source": "multiple"
+    },
+    "Q15_Part_7": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q28_Part_32": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Face API",
+        "source": "multiple"
+    },
+    "Q12_Part_2_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Advanced statistical software (SPSS, SAS, etc.) - Text",
+        "source": "both"
+    },
+    "Q29_Part_26": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Db2",
+        "source": "multiple"
+    },
+    "Q49_Part_10": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Include a text file describing all dependencies",
+        "source": "multiple"
+    },
+    "Q40": {
+        "question": "Which better demonstrates expertise in data science: academic achievements or independent projects? - Your views:",
+        "source": "multiple"
+    },
+    "Q49_Part_5": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share code, data, and environment using virtual machines (VirtualBox, etc.)",
+        "source": "multiple"
+    },
+    "Q36_Part_8": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - developers.google.com",
+        "source": "multiple"
+    },
+    "Q19_Part_3": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Keras",
+        "source": "multiple"
+    },
+    "Q50_Part_4": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Afraid that others will use my work without giving proper credit",
+        "source": "multiple"
+    },
+    "Q38_Part_20": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Analytics Vidhya Blog",
+        "source": "multiple"
+    },
+    "Q28_Part_36": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Assistant",
+        "source": "multiple"
+    },
+    "Q11_Part_3": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data",
+        "source": "multiple"
+    },
+    "Q16_Part_3": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - SQL",
+        "source": "multiple"
+    },
+    "Q45_Part_3": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When determining whether it is worth it to put the model into production",
+        "source": "multiple"
+    },
+    "Q34_Part_1": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Gathering data",
+        "source": "multiple"
+    },
+    "Q47_Part_10": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Sensitivity analysis/perturbation importance",
+        "source": "multiple"
+    },
+    "Q36_Part_9": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Udemy",
+        "source": "multiple"
+    },
+    "Q35_Part_2": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Online courses (Coursera, Udemy, edX, etc.)",
+        "source": "multiple"
+    },
+    "Q42_Part_5": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q27_Part_15": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Virtual Servers",
+        "source": "multiple"
+    },
+    "Q28_Part_4": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Vision API",
+        "source": "multiple"
+    },
+    "Q11_Part_7": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q24": {
+        "question": "How long have you been writing code to analyze data?",
+        "source": "multiple"
+    },
+    "Q45_Part_5": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When first exploring a new ML model or dataset",
+        "source": "multiple"
+    },
+    "Q45_Part_2": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - For all models right before putting the model in production",
+        "source": "multiple"
+    },
+    "Q38_Part_21": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - None/I do not know",
+        "source": "multiple"
+    },
+    "Q19_Part_13": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - randomForest",
+        "source": "multiple"
+    },
+    "Q49_Part_9": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Define relative rather than absolute file paths",
+        "source": "multiple"
+    },
+    "Q21_Part_6": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Plotly",
+        "source": "multiple"
+    },
+    "Q49_Part_8": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Define all random seeds",
+        "source": "multiple"
+    },
+    "Q27_Part_2": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Compute Engine",
+        "source": "multiple"
+    },
+    "Q30_Part_10": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google BigQuery",
+        "source": "multiple"
+    },
+    "Q19_Part_15": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - catboost",
+        "source": "multiple"
+    },
+    "Q28_Part_43": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q14_Part_9": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - JupyterHub/Binder",
+        "source": "multiple"
+    },
+    "Q48": {
+        "question": "Do you consider ML models to be \"black boxes\" with outputs that are difficult or impossible to explain?",
+        "source": "multiple"
+    },
+    "Q23": {
+        "question": "Approximately what percent of your time at work or school is spent actively coding?",
+        "source": "multiple"
+    },
+    "Q47_Part_15": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q27_Part_3": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Elastic Beanstalk",
+        "source": "multiple"
+    },
+    "Q38_Part_2": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Hacker News",
+        "source": "multiple"
+    },
+    "Q44_Part_2": {
+        "question": "What do you find most difficult about ensuring that your algorithms are fair and unbiased? (Select all that apply) - Difficulty in identifying groups that are unfairly targeted",
+        "source": "multiple"
+    },
+    "Q16_Part_11": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Julia",
+        "source": "multiple"
+    },
+    "Q29_Part_3": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud SQL",
+        "source": "multiple"
+    },
+    "Q31_Part_4": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Geospatial Data",
+        "source": "multiple"
+    },
+    "Q19_Part_10": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Xgboost",
+        "source": "multiple"
+    },
+    "Q1": {
+        "question": "What is your gender? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q15_Part_4": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud",
+        "source": "multiple"
+    },
+    "Q38_Part_3": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - r/machinelearning",
+        "source": "multiple"
+    },
+    "Q30_Part_19": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure HDInsight",
+        "source": "multiple"
+    },
+    "Q31_Part_3": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Genetic Data",
+        "source": "multiple"
+    },
+    "Q27_Part_16": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - IBM Cloud Container Registry",
+        "source": "multiple"
+    },
+    "Q29_Part_14": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Ingres",
+        "source": "multiple"
+    },
+    "Q5": {
+        "question": "Which best describes your undergraduate major? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q14_Part_10": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q27_Part_8": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Batch",
+        "source": "multiple"
+    },
+    "Q47_Part_3": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Examine feature importances",
+        "source": "multiple"
+    },
+    "Q28_Part_31": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Computer Vision API",
+        "source": "multiple"
+    },
+    "Q16_Part_6": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Javascript/Typescript",
+        "source": "multiple"
+    },
+    "Q30_Part_16": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Snowflake",
+        "source": "multiple"
+    },
+    "Q43": {
+        "question": "Approximately what percent of your data projects involved exploring unfair bias in the dataset and/or algorithm?",
+        "source": "multiple"
+    },
+    "Q45_Part_1": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - Only for very important models that are already in production",
+        "source": "multiple"
+    },
+    "Q29_Part_23": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose",
+        "source": "multiple"
+    },
+    "Q16_Part_1": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Python",
+        "source": "multiple"
+    },
+    "Q16_Part_10": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Scala",
+        "source": "multiple"
+    },
+    "Q13_Part_3": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - PyCharm",
+        "source": "multiple"
+    },
+    "Q4": {
+        "question": "What is the highest level of formal education that you have attained or plan to attain within the next 2 years?",
+        "source": "multiple"
+    },
+    "Q36_Part_13": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q14_Part_4": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Domino Datalab",
+        "source": "multiple"
+    },
+    "Q19_Part_2": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - TensorFlow",
+        "source": "multiple"
+    },
+    "Q50_Part_3": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Requires too much technical knowledge",
+        "source": "multiple"
+    },
+    "Q22": {
+        "question": "Of the choices that you selected in the previous question, which specific data visualization library or tool have you used the most? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q12_Part_1_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Basic statistical software (Microsoft Excel, Google Sheets, etc.) - Text",
+        "source": "both"
+    },
+    "Q49_Part_6": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Make sure the code is well documented",
+        "source": "multiple"
+    },
+    "Q28_Part_40": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Machine Learning",
+        "source": "multiple"
+    },
+    "Q27_OTHER_TEXT": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Other - Text",
+        "source": "both"
+    },
+    "Q31_Part_9": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Text Data",
+        "source": "multiple"
+    },
+    "Q30_Part_6": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Kinesis",
+        "source": "multiple"
+    },
+    "Q30_Part_25": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q37_OTHER_TEXT": {
+        "question": "On which online platform have you spent the most amount of time? - Other - Text",
+        "source": "both"
+    },
+    "Q31_OTHER_TEXT": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Other Data - Text",
+        "source": "both"
+    },
+    "Q29_Part_5": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS DynamoDB",
+        "source": "multiple"
+    },
+    "Q38_Part_4": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Kaggle forums",
+        "source": "multiple"
+    },
+    "Q30_Part_2": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - AWS Batch",
+        "source": "multiple"
+    },
+    "Q35_Part_1": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Self-taught",
+        "source": "multiple"
+    },
+    "Q45_Part_6": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - I do not explore and interpret model insights and predictions",
+        "source": "multiple"
+    },
+    "Q14_Part_3": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Notebook",
+        "source": "multiple"
+    },
+    "Q19_Part_14": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - lightgbm",
+        "source": "multiple"
+    },
+    "Q16_Part_5": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Java",
+        "source": "multiple"
+    },
+    "Q28_Part_3": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Rekognition",
+        "source": "multiple"
+    },
+    "Q49_Part_7": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Make sure the code is human-readable",
+        "source": "multiple"
+    },
+    "Q13_Part_7": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - MATLAB",
+        "source": "multiple"
+    },
+    "Q14_Part_2": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Colab",
+        "source": "multiple"
+    },
+    "Q15_Part_2": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Web Services (AWS)",
+        "source": "multiple"
+    },
+    "Q13_Part_12": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IntelliJ",
+        "source": "multiple"
+    },
+    "Q13_Part_14": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q1_OTHER_TEXT": {
+        "question": "What is your gender? - Prefer to self-describe - Text",
+        "source": "both"
+    },
+    "Q27_Part_6": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Lambda",
+        "source": "multiple"
+    },
+    "Q35_Part_6": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Other",
+        "source": "multiple"
+    },
+    "Q19_Part_17": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Caffe",
+        "source": "multiple"
+    },
+    "Q21_Part_3": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Altair",
+        "source": "multiple"
+    },
+    "Q38_Part_9": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Cloud AI Adventures (YouTube)",
+        "source": "multiple"
+    },
+    "Q36_Part_12": {
+        "question": "On which online platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q3": {
+        "question": "In which country do you currently reside?",
+        "source": "multiple"
+    },
+    "Q27_Part_5": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Google Kubernetes Engine",
+        "source": "multiple"
+    },
+    "Q29_Part_11": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - PostgresSQL",
+        "source": "multiple"
+    },
+    "Q30_Part_15": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAP IQ",
+        "source": "multiple"
+    },
+    "Q28_Part_16": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - DataRobot",
+        "source": "multiple"
+    },
+    "Q13_Part_4": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Visual Studio Code",
+        "source": "multiple"
+    },
+    "Q33_Part_6": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - Publicly released data from private companies",
+        "source": "multiple"
+    },
+    "Q16_Part_13": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - C#/.NET",
+        "source": "multiple"
+    },
+    "Q29_Part_22": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Database for PostgreSQL",
+        "source": "multiple"
+    },
+    "Q38_OTHER_TEXT": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q16_Part_7": {
+        "question": "What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice - Visual Basic/VBA",
+        "source": "multiple"
+    },
+    "Q29_Part_25": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Cloud Compose for PostgreSQL",
+        "source": "multiple"
+    },
+    "Q21_Part_10": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Leaflet",
+        "source": "multiple"
+    },
+    "Q42_Part_3": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Metrics that consider unfair bias",
+        "source": "multiple"
+    },
+    "Q42_Part_4": {
+        "question": "What metrics do you or your organization use to determine whether or not your models were successful? (Select all that apply) - Selected Choice - Not applicable (I am not involved with an organization that builds ML models)",
+        "source": "multiple"
+    },
+    "Q50_Part_1": {
+        "question": "What barriers prevent you from making your work even easier to reuse and reproduce? (Select all that apply) - Selected Choice - Too expensive",
+        "source": "multiple"
+    },
+    "Q47_Part_14": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - None/I do not use these model explanation techniques",
+        "source": "multiple"
+    },
+    "Q20_OTHER_TEXT": {
+        "question": "Of the choices that you selected in the previous question, which ML library have you used the most? - Other - Text",
+        "source": "both"
+    },
+    "Q21_Part_5": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - D3",
+        "source": "multiple"
+    },
+    "Q38_Part_12": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Journal Publications",
+        "source": "multiple"
+    },
+    "Q28_Part_25": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Cloudera",
+        "source": "multiple"
+    },
+    "Q30_Part_21": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM InfoSphere DataStorage",
+        "source": "multiple"
+    },
+    "Q30_Part_3": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataproc",
+        "source": "multiple"
+    },
+    "Q30_Part_5": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Dataprep",
+        "source": "multiple"
+    },
+    "Q28_Part_33": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Video API",
+        "source": "multiple"
+    },
+    "Q11_Part_6": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice - None of these activities are an important part of my role at work",
+        "source": "multiple"
+    },
+    "Q29_Part_27": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - None",
+        "source": "multiple"
+    },
+    "Q49_Part_4": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share data, code, and environment using containers (Docker, etc.)",
+        "source": "multiple"
+    },
+    "Q34_OTHER_TEXT": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Other",
+        "source": "both"
+    },
+    "Q21_Part_13": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q49_OTHER_TEXT": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q27_Part_19": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - None",
+        "source": "multiple"
+    },
     "Q30_OTHER_TEXT": {
         "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Other - Text",
         "source": "both"
     },
+    "Q31_Part_1": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Audio Data",
+        "source": "multiple"
+    },
+    "Q35_Part_3": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - Work",
+        "source": "multiple"
+    },
+    "Q12_Part_5_TEXT": {
+        "question": "What is the primary tool that you use at work or school to analyze data? (include text response) - Cloud-based data software & APIs (AWS, GCP, Azure, etc.) - Text",
+        "source": "both"
+    },
+    "Q38_Part_5": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Fastai forums",
+        "source": "multiple"
+    },
+    "Q47_Part_9": {
+        "question": "What methods do you prefer for explaining and/or interpreting decisions that are made by ML models? (Select all that apply) - Selected Choice - Print out a decision tree",
+        "source": "multiple"
+    },
+    "Q30_Part_18": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure SQL Data Warehouse",
+        "source": "multiple"
+    },
+    "Q19_Part_7": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Fastai",
+        "source": "multiple"
+    },
+    "Q34_Part_5": {
+        "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Putting the model into production",
+        "source": "multiple"
+    },
+    "Q13_Part_1": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Jupyter/IPython",
+        "source": "multiple"
+    },
+    "Q45_Part_4": {
+        "question": "In what circumstances would you explore model insights and interpret your model's predictions? (Select all that apply) - When building a model that was specifically designed to produce such insights",
+        "source": "multiple"
+    },
+    "Q28_Part_5": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Comprehend",
+        "source": "multiple"
+    },
+    "Q38_Part_7": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - DataTau News Aggregator",
+        "source": "multiple"
+    },
+    "Q29_Part_17": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - SAP IQ",
+        "source": "multiple"
+    },
+    "Q19_Part_19": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q30_Part_11": {
+        "question": "Which of the following big data and analytics products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Teradata",
+        "source": "multiple"
+    },
+    "Q9": {
+        "question": "What is your current yearly compensation (approximate $USD)?",
+        "source": "multiple"
+    },
+    "Q29_Part_10": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - MySQL",
+        "source": "multiple"
+    },
+    "Q15_Part_1": {
+        "question": "Which of the following cloud computing services have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Platform (GCP)",
+        "source": "multiple"
+    },
+    "Q49_Part_1": {
+        "question": "What tools and methods do you use to make your work easy to reproduce? (Select all that apply) - Selected Choice - Share code on Github or a similar code-sharing repository",
+        "source": "multiple"
+    },
+    "Q27_Part_11": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - Azure Functions",
+        "source": "multiple"
+    },
+    "Q38_Part_13": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - FastML Blog",
+        "source": "multiple"
+    },
+    "Q29_Part_28": {
+        "question": "Which of the following relational database products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Other",
+        "source": "multiple"
+    },
+    "Q32_OTHER_TEXT": {
+        "question": "What is the type of data that you currently interact with most often at work or school? - Other Data - Text",
+        "source": "both"
+    },
+    "Q28_Part_11": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Amazon Rekognition Video",
+        "source": "multiple"
+    },
+    "Q14_Part_6": {
+        "question": "Which of the following hosted notebooks have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Paperspace",
+        "source": "multiple"
+    },
+    "Q13_Part_8": {
+        "question": "Which of the following integrated development environments (IDE's) have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Visual Studio",
+        "source": "multiple"
+    },
+    "Q28_Part_12": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Google Cloud Video Intelligence API",
+        "source": "multiple"
+    },
+    "Q31_Part_10": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Time Series Data",
+        "source": "multiple"
+    },
+    "Q21_Part_8": {
+        "question": "What data visualization libraries or tools have you used in the past 5 years? (Select all that apply) - Selected Choice - Seaborn",
+        "source": "multiple"
+    },
+    "Q38_Part_1": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Twitter",
+        "source": "multiple"
+    },
+    "Q11_OTHER_TEXT": {
+        "question": "Select any activities that make up an important part of your role at work: (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q19_OTHER_TEXT": {
+        "question": "What machine learning frameworks have you used in the past 5 years? (Select all that apply) - Other - Text",
+        "source": "both"
+    },
+    "Q20": {
+        "question": "Of the choices that you selected in the previous question, which ML library have you used the most? - Selected Choice",
+        "source": "multiple"
+    },
+    "Q33_Part_9": {
+        "question": "Where do you find public datasets? (Select all that apply) - Selected Choice - GitHub",
+        "source": "multiple"
+    },
+    "Q7_OTHER_TEXT": {
+        "question": "In what industry is your current employer/contract (or your most recent employer if retired)? - Other - Text",
+        "source": "both"
+    },
+    "Q38_Part_18": {
+        "question": "Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice - Medium Blog Posts",
+        "source": "multiple"
+    },
+    "Q28_Part_26": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Machine Learning Studio",
+        "source": "multiple"
+    },
+    "Q31_Part_7": {
+        "question": "Which types of data do you currently interact with most often at work or school? (Select all that apply) - Selected Choice - Sensor Data",
+        "source": "multiple"
+    },
+    "Q28_Part_39": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - IBM Watson Visual Recognition",
+        "source": "multiple"
+    },
+    "Q27_Part_1": {
+        "question": "Which of the following cloud computing products have you used at work or school in the last 5 years (Select all that apply)? - Selected Choice - AWS Elastic Compute Cloud (EC2)",
+        "source": "multiple"
+    },
+    "Q41_Part_3": {
+        "question": "How do you perceive the importance of the following topics? - Reproducibility in data science",
+        "source": "multiple"
+    },
+    "Q28_Part_28": {
+        "question": "Which of the following machine learning products have you used at work or school in the last 5 years? (Select all that apply) - Selected Choice - Azure Cortana Intelligence Suite",
+        "source": "multiple"
+    },
     "Q34_Part_3": {
         "question": "During a typical data science project at work or school, approximately what proportion of your time is devoted to the following? (Answers must add up to 100%) - Visualizing data",
+        "source": "multiple"
+    },
+    "Q35_Part_4": {
+        "question": "What percentage of your current machine learning/data science training falls under each category? (Answers must add up to 100%) - University",
         "source": "multiple"
     }
 }
