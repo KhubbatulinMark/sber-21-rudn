@@ -19,3 +19,12 @@
 [submodule "production/AI_Machine_Learning.Project_3.ID_1577773"]
 	path = production/AI_Machine_Learning.Project_3.ID_1577773
 	url = ssh://git@git-ssh.21-school.ru:2222/masters/AI_Machine_Learning.Project_3.ID_1577773.git
+[submodule "production/AI_Machine_Learning.Project_4.ID_1577774"]
+	path = production/AI_Machine_Learning.Project_4.ID_1577774
+	url = ssh://git@git-ssh.21-school.ru:2222/masters/AI_Machine_Learning.Project_4.ID_1577774.git
+[submodule "production/AI_Machine_Learning.Project_5.ID_1577775"]
+	path = production/AI_Machine_Learning.Project_5.ID_1577775
+	url = ssh://git@git-ssh.21-school.ru:2222/masters/AI_Machine_Learning.Project_5.ID_1577775.git
+[submodule "production/AI_Machine_Learning.Project_6.ID_1577776"]
+	path = production/AI_Machine_Learning.Project_6.ID_1577776
+	url = ssh://git@git-ssh.21-school.ru:2222/masters/AI_Machine_Learning.Project_6.ID_1577776.git
