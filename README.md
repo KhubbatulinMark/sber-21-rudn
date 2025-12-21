@@ -10,6 +10,9 @@ Legend: ![](icons/pptx.png) — lection, ![](icons/jupyter.png) — solution,  !
 | 3      | Проект 03 – Разведочный анализ  | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 | 4      | Проект 04 – Визуализация данных | [git](https://git.21-school.ru/masters/AI_Data_Analytics.Project_3.ID_1577559.git) |
 | 5      | Проект 05 – Введение в машинное обучение | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_1.ID_1577771.git) |
+| 6      | Проект 06 – Метрические алгоритмы | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_2.ID_1577772.git) |
+| 7      | Проект 07 – Линейные модели | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_3.ID_1577773.git) |
 
 
 - [ ] Проект 5 - картинки сделать поменьше
+- [ ] Проект 7 - переписать проект
