@@ -214,3 +214,5 @@ __marimo__/
 requirements.txt
 
 /lections
+
+/solutions/ML/FashionMNIST/*
