@@ -216,4 +216,4 @@ requirements.txt
 /lections
 
 /solutions/ML/FashionMNIST/*
-/production/ML/catboost_info/*
+/solutions/ML/catboost_info/*
