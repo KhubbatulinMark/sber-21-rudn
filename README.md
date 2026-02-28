@@ -14,3 +14,5 @@ Legend: ![](icons/pptx.png) – lection, ![](icons/jupyter.png) – solution, ![
 | 6      | Проект 06 – Метрические алгоритмы         | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_2.ID_1577772.git)    |
 | 7      | Проект 07 – Линейные модели               | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_3.ID_1577773.git)    |
 | 8      | Проект 08 – Алгоритмы на основе деревьев  | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_4.ID_1577774)        |
+| 9      | Проект 09 – Обучение без учителя          | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_5.ID_1577775)        |
+| 10     | Проект 10 – Введение в нейронные сети     | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_6.ID_1577776.git)    |
