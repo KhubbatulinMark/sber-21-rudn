@@ -218,3 +218,7 @@ requirements.txt
 /solutions/ML/FashionMNIST/*
 /solutions/ML/catboost_info/*
 /solutions/ML/data/*
+
+/solutions/02-ml/catboost_info/
+/solutions/02-ml/data/
+/solutions/02-ml/FashionMNIST/raw/
