@@ -38,7 +38,7 @@ services:
       - "8888:8888"
     volumes:
       - ./src:/home/jovyan/work
-      - ../production/AI_Data_Engineering.Project_1.ID_1577979/datasets:/home/jovyan/datasets
+      - ../../production/AI_Data_Engineering.Project_1.ID_1577979/datasets:/home/jovyan/datasets
     environment:
       - JUPYTER_ENABLE_LAB=yes
       - JUPYTER_TOKEN=school21
