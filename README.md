@@ -15,4 +15,6 @@ Legend: ![](icons/pptx.png) – lection, ![](icons/jupyter.png) – solution, ![
 | 7      | Проект 07 – Линейные модели               | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_3.ID_1577773.git)    |
 | 8      | Проект 08 – Алгоритмы на основе деревьев  | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_4.ID_1577774)        |
 | 9      | Проект 09 – Обучение без учителя          | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_5.ID_1577775)        |
-| 10     | Проект 10 – Компьютерное зрение, NLP, анализ аудио     | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_6.ID_1577776.git)     |
+| 10     | Проект 10 – Компьютерное зрение, NLP, анализ аудио | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_6.ID_1577776.git) |
+| 11     | Проект 11 – Введение в Data Engineering   | [git](https://git.21-school.ru/masters/AI_Data_Engineering.Project_1.ID_1577979.git)   |
+| 12     | Проект 12 – ML Pipeline                   | [git](https://git.21-school.ru/masters/AI_Data_Engineering.Project_2.ID_1577980.git)   |
