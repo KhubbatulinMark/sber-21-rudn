@@ -110,7 +110,7 @@ def build_analytics() -> None:
 
             cur.execute("""
                 CREATE TABLE analytics.dim_products (
-                    product_key                     BIGSERIAL PRIMARY KEY,
+                    product_key                     BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
                     product_id                      TEXT UNIQUE NOT NULL,
                     product_category_name           TEXT,
                     product_category_name_english   TEXT
@@ -132,7 +132,7 @@ def build_analytics() -> None:
 
             cur.execute("""
                 CREATE TABLE analytics.facts_sales (
-                    sales_key                   BIGSERIAL PRIMARY KEY,
+                    sales_key                   BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
                     order_id                    TEXT,
                     order_item_id               INTEGER,
                     product_key                 BIGINT REFERENCES analytics.dim_products(product_key),
@@ -163,7 +163,7 @@ def build_analytics() -> None:
 
             cur.execute("""
                 CREATE TABLE analytics.facts_reviews (
-                    review_key              BIGSERIAL PRIMARY KEY,
+                    review_key              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
                     review_id               TEXT,
                     order_id                TEXT,
                     product_key             BIGINT REFERENCES analytics.dim_products(product_key),
