@@ -7,10 +7,14 @@ from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
+DATABASE_URL_SALES = os.environ["DATABASE_URL_SALES"]
+DATABASE_URL_CATALOG = os.environ["DATABASE_URL_CATALOG"]
+DATABASE_URL_WAREHOUSE = os.environ["DATABASE_URL_WAREHOUSE"]
+
 _URLS: dict[str, str] = {
-    "db_sales": os.environ["DATABASE_URL_SALES"],
-    "db_catalog": os.environ["DATABASE_URL_CATALOG"],
-    "warehouse": os.environ["DATABASE_URL_WAREHOUSE"],
+    "db_sales": DATABASE_URL_SALES,
+    "db_catalog": DATABASE_URL_CATALOG,
+    "warehouse": DATABASE_URL_WAREHOUSE,
 }
 
 

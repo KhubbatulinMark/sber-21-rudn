@@ -4,7 +4,7 @@ from decimal import Decimal
 from sqlalchemy import BigInteger, Boolean, DateTime, ForeignKey, Numeric, String, create_engine, func, select
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column
 
-from db_setup import DATABASE_URL_WAREHOUSE
+from connect import DATABASE_URL_WAREHOUSE
 
 
 class Base(DeclarativeBase):

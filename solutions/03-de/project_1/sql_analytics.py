@@ -3,7 +3,7 @@ from decimal import Decimal
 
 import psycopg
 
-from db_setup import get_conn_sales
+from connect import get_connection_sales
 
 
 def query_orders_by_status(
@@ -105,7 +105,7 @@ def query_above_average_orders(conn: psycopg.Connection) -> list[tuple]:
 
 
 if __name__ == "__main__":
-    with get_conn_sales() as conn:
+    with get_connection_sales() as conn:
         count = query_orders_by_status(conn, "delivered", date(2017, 1, 1), date(2018, 8, 31))
         print(f"Задание 4 — заказов со статусом 'delivered': {count}")
 

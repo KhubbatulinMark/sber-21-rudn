@@ -1,7 +1,7 @@
 import psycopg
 from psycopg.rows import dict_row
 
-from db_setup import get_conn_catalog, get_conn_sales, get_conn_warehouse
+from connect import get_connection_catalog, get_connection_sales, get_connection_warehouse
 
 STAGING_DDL = """
 CREATE TABLE IF NOT EXISTS staging.orders (
@@ -74,7 +74,7 @@ def _bulk_insert(cur: psycopg.Cursor, table: str, rows: list[dict]) -> None:
 
 
 def build_staging() -> None:
-    with get_conn_warehouse() as wh_conn:
+    with get_connection_warehouse() as wh_conn:
         with wh_conn.cursor() as cur:
             cur.execute("CREATE SCHEMA IF NOT EXISTS staging")
             cur.execute("CREATE SCHEMA IF NOT EXISTS analytics")
@@ -82,13 +82,13 @@ def build_staging() -> None:
         wh_conn.commit()
 
         sales_tables = {
-            "orders": _read_table(get_conn_sales(), "orders"),
-            "order_items": _read_table(get_conn_sales(), "order_items"),
+            "orders": _read_table(get_connection_sales(), "orders"),
+            "order_items": _read_table(get_connection_sales(), "order_items"),
         }
         catalog_tables = {
-            "products": _read_table(get_conn_catalog(), "products"),
-            "category_translation": _read_table(get_conn_catalog(), "category_translation"),
-            "reviews": _read_table(get_conn_catalog(), "reviews"),
+            "products": _read_table(get_connection_catalog(), "products"),
+            "category_translation": _read_table(get_connection_catalog(), "category_translation"),
+            "reviews": _read_table(get_connection_catalog(), "reviews"),
         }
 
         with wh_conn.cursor() as cur:
@@ -102,7 +102,7 @@ def build_staging() -> None:
 
 
 def build_analytics() -> None:
-    with get_conn_warehouse() as conn:
+    with get_connection_warehouse() as conn:
         with conn.cursor() as cur:
             cur.execute("DROP TABLE IF EXISTS analytics.facts_reviews CASCADE")
             cur.execute("DROP TABLE IF EXISTS analytics.facts_sales CASCADE")

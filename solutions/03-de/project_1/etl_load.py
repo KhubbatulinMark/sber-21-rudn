@@ -2,13 +2,13 @@ from pathlib import Path
 
 import psycopg
 
-from db_setup import get_conn_catalog, get_conn_sales
+from connect import get_connection_catalog, get_connection_sales
 
-DATASETS = Path(__file__).parent.parent.parent / "production" / "AI_Data_Engineering.Project_1.ID_1577979" / "datasets"
+DATASETS = Path(__file__).resolve().parents[3] / "production" / "AI_Data_Engineering.Project_1.ID_1577979" / "datasets"
 
 
 def load_all() -> None:
-    with get_conn_sales() as conn:
+    with get_connection_sales() as conn:
         with conn.cursor() as cur:
             cur.execute("TRUNCATE order_items, orders RESTART IDENTITY CASCADE")
             for csv_file, table in [
@@ -24,7 +24,7 @@ def load_all() -> None:
                 print(f"db_sales.{table:<20} {count:>8} rows")
         conn.commit()
 
-    with get_conn_catalog() as conn:
+    with get_connection_catalog() as conn:
         with conn.cursor() as cur:
             cur.execute("TRUNCATE reviews, products, category_translation RESTART IDENTITY CASCADE")
             reviews_cols = (
