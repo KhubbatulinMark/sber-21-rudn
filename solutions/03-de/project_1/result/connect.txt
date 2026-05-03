@@ -1,0 +1,3 @@
+db_sales   → db_sales | postgres | PostgreSQL 16.13
+db_catalog → db_catalog | postgres | PostgreSQL 16.13
+warehouse  → warehouse | postgres | PostgreSQL 16.13
