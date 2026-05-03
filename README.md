@@ -18,3 +18,5 @@ Legend: ![](icons/pptx.png) – lection, ![](icons/jupyter.png) – solution, ![
 | 10     | Проект 10 – Компьютерное зрение, NLP, анализ аудио | [git](https://git.21-school.ru/masters/AI_Machine_Learning.Project_6.ID_1577776.git) |
 | 11     | Проект 11 – Введение в Data Engineering   | [git](https://git.21-school.ru/masters/AI_Data_Engineering.Project_1.ID_1577979.git)   |
 | 12     | Проект 12 – ML Pipeline                   | [git](https://git.21-school.ru/masters/AI_Data_Engineering.Project_2.ID_1577980.git)   |
+| 13     | Проект 13 – Оркестрация                    | [git](https://git.21-school.ru/masters/AI_Data_Engineering.Project_3.ID_1577981.git)   |
+
