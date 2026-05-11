@@ -1,1 +1,4 @@
 analytics.sql: dim_products, facts_reviews, facts_sales
+  analytics.dim_products                32951 rows
+  analytics.facts_sales                112650 rows
+  analytics.facts_reviews               99224 rows

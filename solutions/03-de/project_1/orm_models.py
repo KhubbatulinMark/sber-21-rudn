@@ -1,3 +1,6 @@
+import io
+import os
+    
 from datetime import datetime
 from decimal import Decimal
 
@@ -66,41 +69,53 @@ class FactReview(Base):
 
 
 if __name__ == "__main__":
+    _buf = io.StringIO()
+    _tee = lambda msg: (_buf.write(msg + "\n"), print(msg))  # noqa: E731
+
     # psycopg3 requires the +psycopg dialect prefix in SQLAlchemy
     _url = DATABASE_URL_WAREHOUSE.replace("postgresql://", "postgresql+psycopg://", 1)
     engine = create_engine(_url, future=True)
 
     Base.metadata.create_all(engine)
-    print("create_all: OK (первый запуск)")
+    _tee("create_all: OK (первый запуск)")
 
     Base.metadata.create_all(engine)
-    print("create_all: OK (повторный запуск — идемпотентность подтверждена)")
+    _tee("create_all: OK (повторный запуск — идемпотентность подтверждена)")
 
     with Session(engine) as session:
         products = session.scalars(
             select(DimProduct).order_by(DimProduct.product_key).limit(5)
         ).all()
-        print(f"\nRead — первые 5 записей DimProduct:")
+        _tee("\nRead — первые 5 записей DimProduct:")
         for p in products:
-            print(f"  {p}")
+            _tee(f"  {p}")
 
         sale_count = session.scalar(select(func.count()).select_from(FactSale))
-        print(f"\nCount — строк в FactSale: {sale_count}")
+        _tee(f"\nCount — строк в FactSale: {sale_count}")
 
         test_review = FactReview(
             review_id="ORM_TEST",
+            order_id="ORM_TEST_ORDER",
             review_score=5,
+            review_creation_date=datetime(2018, 1, 1),
             linked_to_product=False,
         )
         session.add(test_review)
         session.commit()
-        print("\nInsert — тестовая запись добавлена")
+        _tee("\nInsert — тестовая запись добавлена")
 
         inserted = session.scalar(
             select(FactReview).where(FactReview.review_id == "ORM_TEST")
         )
-        print(f"Verify — найдена запись: {inserted}")
+        _tee(f"Verify — найдена запись: {inserted}")
 
         session.delete(inserted)
         session.commit()
-        print("Delete — тестовая запись удалена")
+        _tee("Delete — тестовая запись удалена")
+
+    _result_dir = os.path.join(os.path.dirname(__file__), "result")
+    _result_path = os.path.join(_result_dir, os.path.splitext(os.path.basename(__file__))[0] + ".txt")
+    os.makedirs(_result_dir, exist_ok=True)
+    with open(_result_path, "w", encoding="utf-8") as _f:
+        _f.write(_buf.getvalue())
+    print(f"\nРезультат сохранён: {_result_path}")

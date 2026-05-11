@@ -1,0 +1,15 @@
+create_all: OK (первый запуск)
+create_all: OK (повторный запуск — идемпотентность подтверждена)
+
+Read — первые 5 записей DimProduct:
+  DimProduct(product_key=1, product_id='2852bc2e54973155081dc04bff585ac4', category='housewares')
+  DimProduct(product_key=2, product_id='583916a5dae918f5e89baec139141c54', category=None)
+  DimProduct(product_key=3, product_id='026d610705e01d905582241e68aefefe', category='stationery')
+  DimProduct(product_key=4, product_id='14bc0f89b7126bb00dfa6432d85340de', category='watches_gifts')
+  DimProduct(product_key=5, product_id='8471182114c4e0e3b1586fef0ad240a9', category='auto')
+
+Count — строк в FactSale: 112650
+
+Insert — тестовая запись добавлена
+Verify — найдена запись: FactReview(review_key=99225, review_id='ORM_TEST', score=5, linked=False)
+Delete — тестовая запись удалена

@@ -1,1 +1,6 @@
 staging.sql: category_translation, order_items, orders, products, reviews
+  staging.orders                        99441 rows
+  staging.order_items                  112650 rows
+  staging.products                      32951 rows
+  staging.category_translation             71 rows
+  staging.reviews                       99224 rows
