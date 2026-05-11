@@ -1,0 +1,1 @@
+staging.sql: category_translation, order_items, orders, products, reviews
