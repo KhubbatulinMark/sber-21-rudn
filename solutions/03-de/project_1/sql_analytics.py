@@ -1,5 +1,4 @@
 from datetime import date
-from decimal import Decimal
 
 import psycopg
 
@@ -66,26 +65,6 @@ def query_monthly_revenue(conn: psycopg.Connection) -> list[tuple]:
         return cur.fetchall()
 
 
-def query_revenue_by_status(
-    conn: psycopg.Connection,
-    min_revenue: Decimal,
-) -> list[tuple]:
-    with conn.cursor() as cur:
-        cur.execute(
-            """
-            SELECT o.order_status,
-                   SUM(oi.price + oi.freight_value) AS revenue
-            FROM orders o
-            INNER JOIN order_items oi ON o.order_id = oi.order_id
-            GROUP BY o.order_status
-            HAVING SUM(oi.price + oi.freight_value) >= %s
-            ORDER BY revenue DESC
-            """,
-            (min_revenue,),
-        )
-        return cur.fetchall()
-
-
 def query_above_average_orders(conn: psycopg.Connection) -> list[tuple]:
     with conn.cursor() as cur:
         cur.execute("""
@@ -95,9 +74,10 @@ def query_above_average_orders(conn: psycopg.Connection) -> list[tuple]:
                 FROM order_items
                 GROUP BY order_id
             )
-            SELECT order_id, order_total
+            SELECT order_id, SUM(order_total) AS order_total
             FROM order_totals
-            WHERE order_total > (SELECT AVG(order_total) FROM order_totals)
+            GROUP BY order_id
+            HAVING SUM(order_total) > (SELECT AVG(order_total) FROM order_totals)
             ORDER BY order_total DESC
             LIMIT 20
         """)
@@ -105,27 +85,32 @@ def query_above_average_orders(conn: psycopg.Connection) -> list[tuple]:
 
 
 if __name__ == "__main__":
+    lines: list[str] = []
+
     with get_connection_sales() as conn:
         count = query_orders_by_status(conn, "delivered", date(2017, 1, 1), date(2018, 8, 31))
-        print(f"Задание 4 — заказов со статусом 'delivered': {count}")
+        lines.append(f"Задание 4 — заказов со статусом 'delivered': {count}")
 
         top = query_top_products(conn, top_n=10)
-        print(f"\nЗадание 5 — топ-10 продуктов по выручке:")
+        lines.append("\nЗадание 5 — топ-10 продуктов по выручке:")
         for product_id, revenue in top:
-            print(f"  {product_id}  {revenue:.2f}")
+            lines.append(f"  {product_id}  {revenue:.2f}")
 
         monthly = query_monthly_revenue(conn)
-        print(f"\nЗадание 6 — динамика выручки по месяцам ({len(monthly)} строк):")
+        lines.append(f"\nЗадание 6 — динамика выручки по месяцам ({len(monthly)} строк):")
         for month_start, revenue, delta in monthly:
             delta_str = f"{delta:+.2f}" if delta is not None else "—"
-            print(f"  {str(month_start)[:7]}  {revenue:>14.2f}  {delta_str}")
-
-        by_status = query_revenue_by_status(conn, min_revenue=Decimal("10000"))
-        print(f"\nЗадание 7а — статусов с выручкой >= 10 000: {len(by_status)}")
-        for status, revenue in by_status:
-            print(f"  {status:<15}  {revenue:.2f}")
+            lines.append(f"  {str(month_start)[:7]}  {revenue:>14.2f}  {delta_str}")
 
         above_avg = query_above_average_orders(conn)
-        print(f"\nЗадание 7б — топ-20 заказов выше среднего:")
+        lines.append("\nЗадание 7 — топ-20 заказов выше среднего:")
         for order_id, total in above_avg:
-            print(f"  {order_id}  {total:.2f}")
+            lines.append(f"  {order_id}  {total:.2f}")
+
+    output = "\n".join(lines)
+    print(output)
+
+    result_path = "result/sql_analytics.txt"
+    with open(result_path, "w", encoding="utf-8") as f:
+        f.write(output + "\n")
+    print(f"\nРезультат сохранён в {result_path}")
