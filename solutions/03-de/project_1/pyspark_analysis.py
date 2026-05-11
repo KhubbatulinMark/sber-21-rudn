@@ -6,34 +6,37 @@ from pyspark.sql.window import Window
 
 DATASETS = Path(__file__).parent.parent.parent / "production" / "AI_Data_Engineering.Project_1.ID_1577979" / "datasets"
 
-spark = SparkSession.builder.appName("OlistAnalysis").getOrCreate()
+JDBC_URL = "jdbc:postgresql://localhost:5435/warehouse"
+JDBC_PROPS = {
+    "user": "postgres",
+    "password": "postgres",
+    "driver": "org.postgresql.Driver",
+}
+
+spark = (
+    SparkSession.builder
+    .appName("OlistAnalysis")
+    .config("spark.jars.packages", "org.postgresql:postgresql:42.7.4")
+    .getOrCreate()
+)
 spark.sparkContext.setLogLevel("ERROR")
 
 
 # --- Задание 11: загрузка данных ---
 
+orders_df = spark.read.jdbc(url=JDBC_URL, table="staging.orders", properties=JDBC_PROPS)
 customers_raw = spark.read.csv(str(DATASETS / "olist_customers_dataset.csv"), header=True)
-orders_raw = spark.read.csv(str(DATASETS / "olist_orders_dataset.csv"), header=True)
 payments_raw = spark.read.csv(str(DATASETS / "olist_order_payments_dataset.csv"), header=True)
 
 print("=== Схемы датафреймов ===")
+orders_df.printSchema()
 customers_raw.printSchema()
-orders_raw.printSchema()
 payments_raw.printSchema()
 
 print("\n=== Первые 3 строки ===")
+orders_df.show(3)
 customers_raw.show(3)
-orders_raw.show(3)
 payments_raw.show(3)
-
-orders_df = (
-    orders_raw
-    .withColumn("order_purchase_timestamp",       F.to_timestamp("order_purchase_timestamp"))
-    .withColumn("order_approved_at",              F.to_timestamp("order_approved_at"))
-    .withColumn("order_delivered_carrier_date",   F.to_timestamp("order_delivered_carrier_date"))
-    .withColumn("order_delivered_customer_date",  F.to_timestamp("order_delivered_customer_date"))
-    .withColumn("order_estimated_delivery_date",  F.to_timestamp("order_estimated_delivery_date"))
-)
 
 print(f"\nCustomers до очистки: {customers_raw.count()}")
 customers_df = customers_raw.na.drop()
@@ -61,13 +64,13 @@ answer_1 = (
 answer_1.show(10)
 
 print("\n=== Бизнес-задача 2: клиенты по штатам с рангом ===")
+rank_window = Window.orderBy(F.desc("No_of_customers_state"))
 answer_2 = (
     customers_df
     .groupBy("customer_state")
     .count()
     .withColumnRenamed("count", "No_of_customers_state")
-    .orderBy(F.col("No_of_customers_state").desc())
-    .withColumn("rank", F.monotonically_increasing_id() + 1)
+    .withColumn("rank", F.row_number().over(rank_window))
 )
 answer_2.show(27)
 
@@ -104,10 +107,10 @@ third_orders = ranked.where(F.col("order_rank") == 3).select(
     F.col("order_purchase_timestamp").alias("third_order_ts"),
 )
 
-joined = first_orders.join(third_orders, on="customer_unique_id")
-result = joined.withColumn(
-    "days_to_third",
-    F.datediff(F.col("third_order_ts"), F.col("first_order_ts")),
+result = (
+    first_orders
+    .join(third_orders, on="customer_unique_id")
+    .withColumn("days_to_third", F.datediff("third_order_ts", "first_order_ts"))
 )
 
 result.agg(
