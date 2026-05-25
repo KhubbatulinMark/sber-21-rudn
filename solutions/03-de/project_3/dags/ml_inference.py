@@ -10,6 +10,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 from _common import DEFAULT_ARGS
 from include.drift.sql import CATEGORICAL_FEATURES, NUMERICAL_FEATURES
+from include.etl.load import apply_ddl
 from include.ml.datasets import MODEL_DATASET
 
 ARTEFACTS = Path("/opt/airflow/artefacts")
@@ -34,6 +35,10 @@ WHERE fs.order_purchase_timestamp >= %(window_start)s
     tags=["olist", "ml"],
 )
 def ml_inference():
+    @task()
+    def create_predictions_table() -> None:
+        apply_ddl("postgres_warehouse", "predictions.sql")
+
     def _extract(**context) -> bool:
         ds = context["ds"]
         out_dir = ARTEFACTS / ds
@@ -50,14 +55,6 @@ def ml_inference():
                 INFERENCE_SQL, conn,
                 params={"window_start": window_start, "window_end": window_end},
             )
-            if df.empty:
-                df = pd.read_sql(
-                    INFERENCE_SQL, conn,
-                    params={
-                        "window_start": window_end - timedelta(days=365),
-                        "window_end": window_end,
-                    },
-                )
         finally:
             conn.close()
         if df.empty:
@@ -108,9 +105,10 @@ def ml_inference():
         )
         assert written == expected, f"written={written}, expected={expected}"
 
+    init = create_predictions_table()
     preds = run_inference()
     written = write_predictions(preds)
-    extract_recent_orders >> preds
+    init >> extract_recent_orders >> preds
     validate_predictions(written)
 
 
