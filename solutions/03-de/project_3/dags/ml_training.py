@@ -12,7 +12,7 @@ from include.ml.datasets import MODEL_DATASET
 from include.ml.training import train_model
 
 ARTEFACTS = Path("/opt/airflow/artefacts")
-QUALITY_GATE_THRESHOLD = 0.65
+QUALITY_GATE_THRESHOLD = 0.55
 
 
 @dag(

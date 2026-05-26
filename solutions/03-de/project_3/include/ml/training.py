@@ -15,8 +15,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
+from sklearn.base import clone
 from sklearn.metrics import mean_squared_error, roc_auc_score
-from sklearn.model_selection import cross_val_score, train_test_split
+from sklearn.model_selection import KFold, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
@@ -59,13 +60,19 @@ def train_model(data_path: Path, model_name: str, output_dir: Path) -> dict:
     X_test_t = transformer.transform(X_test)
 
     model = MODELS[model_name]()
-    try:
-        cv_scores = cross_val_score(
-            model, X_train_t, (y_train >= 4).astype(int), cv=3, scoring="roc_auc"
-        )
-        cv_mean, cv_std = float(np.nanmean(cv_scores)), float(np.nanstd(cv_scores))
-    except Exception:
-        cv_mean, cv_std = 0.0, 0.0
+
+    # Custom CV scoring: regressor.predict() is used as a continuous score for roc_auc.
+    # sklearn's cross_val_score with scoring="roc_auc" fails on regressors
+    # (no predict_proba / decision_function), so we run the folds manually.
+    cv_scores: list[float] = []
+    y_train_bin = (y_train >= 4).astype(int).to_numpy()
+    for train_idx, val_idx in KFold(n_splits=3, shuffle=True, random_state=42).split(X_train_t):
+        fold_model = clone(model)
+        fold_model.fit(X_train_t[train_idx], y_train.iloc[train_idx])
+        fold_preds = fold_model.predict(X_train_t[val_idx])
+        cv_scores.append(roc_auc_score(y_train_bin[val_idx], fold_preds))
+    cv_mean, cv_std = float(np.mean(cv_scores)), float(np.std(cv_scores))
+
     model.fit(X_train_t, y_train)
 
     preds = model.predict(X_test_t)
