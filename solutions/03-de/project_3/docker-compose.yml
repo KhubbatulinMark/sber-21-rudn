@@ -1,0 +1,135 @@
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.10.3-python3.11
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+    AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session
+    PYTHONPATH: /opt/airflow
+    _PIP_ADDITIONAL_REQUIREMENTS: >-
+      apache-airflow-providers-postgres==5.13.1
+      apache-airflow-providers-docker==3.14.1
+      psycopg[binary]==3.2.3
+      pandas==2.2.3
+      scikit-learn==1.5.2
+      evidently==0.4.40
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./plugins:/opt/airflow/plugins
+    - ./include:/opt/airflow/include
+    - ./datasets:/opt/airflow/datasets
+    - ./artefacts:/opt/airflow/artefacts
+    - airflow-logs:/opt/airflow/logs
+  depends_on: &airflow-common-depends-on
+    postgres-airflow:
+      condition: service_healthy
+
+services:
+
+  postgres-airflow:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-airflow-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 10
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate
+        airflow users create \
+          --username airflow --password airflow \
+          --firstname Air --lastname Flow \
+          --role Admin --email admin@example.com || true
+    restart: "no"
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080/health || exit 1"]
+      interval: 15s
+      retries: 10
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 15s
+      retries: 10
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  db_sales:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${SALES_USER:-olist}
+      POSTGRES_PASSWORD: ${SALES_PASSWORD:-olist}
+      POSTGRES_DB: ${SALES_DB:-sales}
+    ports:
+      - "5433:5432"
+    volumes:
+      - db-sales-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${SALES_USER:-olist}"]
+      interval: 5s
+      retries: 10
+
+  db_catalog:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${CATALOG_USER:-olist}
+      POSTGRES_PASSWORD: ${CATALOG_PASSWORD:-olist}
+      POSTGRES_DB: ${CATALOG_DB:-catalog}
+    ports:
+      - "5434:5432"
+    volumes:
+      - db-catalog-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${CATALOG_USER:-olist}"]
+      interval: 5s
+      retries: 10
+
+  warehouse:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${WAREHOUSE_USER:-olist}
+      POSTGRES_PASSWORD: ${WAREHOUSE_PASSWORD:-olist}
+      POSTGRES_DB: ${WAREHOUSE_DB:-warehouse}
+    ports:
+      - "5435:5432"
+    volumes:
+      - warehouse-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${WAREHOUSE_USER:-olist}"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  postgres-airflow-data:
+  airflow-logs:
+  db-sales-data:
+  db-catalog-data:
+  warehouse-data:

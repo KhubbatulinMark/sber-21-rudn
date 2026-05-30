@@ -1,0 +1,7 @@
+datasets/*
+!datasets/.gitkeep
+artefacts/*
+!artefacts/.gitkeep
+__pycache__/
+*.pyc
+.env

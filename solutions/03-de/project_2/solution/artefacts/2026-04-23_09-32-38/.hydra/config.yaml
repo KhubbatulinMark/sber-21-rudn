@@ -1,0 +1,44 @@
+model:
+  model_name: lin-reg
+  model_params:
+    _target_: sklearn.linear_model.LinearRegression
+    fit_intercept: true
+dataset:
+  input_data_path: /Users/khubbatulinmark/side-project/SCHOOL21/sber-21-rudn/solutions/03-de/project_2/solution/datasets/olist_public_dataset_v2.csv
+feature:
+  categorical_features:
+  - order_status
+  - customer_state
+  - product_category_name_english
+  numerical_features:
+  - order_products_value
+  - order_freight_value
+  - order_items_qty
+  - order_sellers_qty
+  - product_name_lenght
+  - product_description_lenght
+  - product_photos_qty
+  - wd_estimated_delivery_time
+  - wd_actual_delivery_time
+  - wd_delivery_time_delta
+  - is_late
+  - average_product_value
+  - total_order_value
+  - order_freight_ratio
+  - purchase_dayofweek
+  target_col: review_score
+  categorical_encoder: target
+  features_to_drop:
+  - order_id
+  - customer_id
+  - product_id
+  - review_id
+  - customer_city
+  - customer_zip_code_prefix
+  - review_comment_title
+  - review_comment_message
+  - review_creation_date
+  - review_answer_timestamp
+split:
+  test_size: 0.25
+  random_state: 42

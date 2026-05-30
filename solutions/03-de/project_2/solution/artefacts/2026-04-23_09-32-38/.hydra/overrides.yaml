@@ -1,0 +1,3 @@
+- model=lr
+- feature.categorical_encoder=target
+- dataset.input_data_path=/Users/khubbatulinmark/side-project/SCHOOL21/sber-21-rudn/solutions/03-de/project_2/solution/datasets/olist_public_dataset_v2.csv

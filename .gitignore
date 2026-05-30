@@ -209,6 +209,7 @@ __marimo__/
 # IDE
 .idea
 .cursor
+.claude
 .DS_Store
 
 requirements.txt

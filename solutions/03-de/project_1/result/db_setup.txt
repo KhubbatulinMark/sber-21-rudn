@@ -1,0 +1,2 @@
+db_sales.sql: order_items, orders
+db_catalog.sql: category_translation, products, reviews

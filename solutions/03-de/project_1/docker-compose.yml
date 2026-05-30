@@ -1,0 +1,53 @@
+services:
+  db_sales:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: db_sales
+    ports:
+      - "5433:5432"
+    volumes:
+      - db_sales_data:/var/lib/postgresql/data
+
+  db_catalog:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: db_catalog
+    ports:
+      - "5434:5432"
+    volumes:
+      - db_catalog_data:/var/lib/postgresql/data
+
+  warehouse:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: warehouse
+    ports:
+      - "5435:5432"
+    volumes:
+      - warehouse_data:/var/lib/postgresql/data
+
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src:/home/jovyan/work
+      - ../../../production/AI_Data_Engineering.Project_1.ID_1577979/datasets:/home/jovyan/datasets
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=school21
+    user: root
+    command: >
+      bash -c "fix-permissions /home/jovyan/work &&
+               start-notebook.sh --NotebookApp.token='school21'"
+
+volumes:
+  db_sales_data:
+  db_catalog_data:
+  warehouse_data:
